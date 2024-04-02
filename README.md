@@ -1,5 +1,5 @@
 # moer-bsc-mpg-proximate-sensing
-Master level course in Physical Geography at the University of Marburg.
+Bachelor and Master level course in Physical Geography at the University of Marburg.
 
 This course is brought to you as part of the [Open Educational Resources](https://oer.uni-marburg.de) initiative of the [University of Marburg, Germany](https://www.uni-marburg.de/de) from the [Lab of Environmental Informatics](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics) at the [Department of Geography](https://www.uni-marburg.de/fb19).
 

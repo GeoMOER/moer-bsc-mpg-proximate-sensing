@@ -1,18 +1,19 @@
 ---
-title: What is proximate sensing and why do we need it?
+title: What is proximate sensing of biodiversity?
 header:
   image: "/assets/images/title/platzhalter.png"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
-With the rapid decline of global biodiversity and the increasing threat of species extinction, there is a growing interest in accurately and efficiently monitoring the health and distribution of species and ecosystems. Traditional field surveys involve audio-visual surveys or trapping in the field to document the presence, abundance and distribution of species. These methods provide high quality information, but they are labour intensive and therefore limited in area and time covered.
-Alternatively, there's [remote sensing](https://github.com/GeoMOER/moer-bsc-project-seminar-remote-sensing). Remote sensing technologies such as satellite imagery, LiDAR and drones can provide valuable data on habitat characteristics, land cover changes and ecosystem health. They can cover large areas, but provide less specific information.
-In the middle is what we'll call proximate sensing of biodiversity.
-In proximate sensing, compared to remote sensing, the sensor is close to the object and is installed on platforms ranging from handheld, fixed installations or robotics to tractor-embedded sensors[^1]. 
-The (semi-)automated collection of data from the field, often using cameras, microphones or other sensors, allows information to be gathered on species populations, biodiversity, phenological shifts and interactions. In theory, this non-invasive approach should allow scientists to observe and analyse their target with minimal effort[^2]. However, there are many challenges to developing a fully functional, autonomous, proximate sensor pipeline.
+The title of this course refers to three aspects:
 
-In this introductory course, we will explore the principles and methodologies of proximate sensing in biodiversity research, highlighting its potential benefits and limitations. We will also discuss various sensing techniques commonly employed in biodiversity studies, along with case studies demonstrating their practical applications in conservation.
+Proximate: as discussed prior, proximate denotes something immediate or direct, as opposed to something distant or remote. The word "proximate" originates from the Latin word "proximatus," which is the past participle of "proximare," meaning "to approach" or "to draw near." In English, "proximate" is used to describe something that is nearest in space, time, order, or relation.
+
+Sensing: "Sensing" refers to the process of detecting or perceiving stimuli or signals from the environment. The Latin verb "sentire" means "to feel" or "to perceive". In technology, sensing involves the ability to detect and interpret information through specialized devices.
+
+Biodiversity: Convention on Biological Diversity (CBD) defines biodiversity as follows: "Biodiversity means the variability among living organisms from all sources including, inter alia, terrestrial, marine and other aquatic ecosystems and the ecological complexes of which they are part; this includes diversity within species, between species and of ecosystems." Therefore, there are generally three levels of biodiversity- genetic diversity, species  diversity, diversity of ecosystems- genetic variability within and between populations, which is a basis for evolutionary processes.+
 
 
-[^1]:https://www.mdpi.com/journal/remotesensing/special_issues/Proximal_Sensing_for_Agriculture
-[^2]:https://www.mdpi.com/1424-8220/22/2/497
+**QUESTIONS TO BE DISCUSSED**
+> can proximate sensing cover all aspects of biodiversity?
+> what are the limits?

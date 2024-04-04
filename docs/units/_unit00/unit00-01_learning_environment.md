@@ -18,10 +18,8 @@ Subsequent sessions will be in a hybrid format, meaning that parts of the studen
 
 ## HTML learning environment
 
-Your primary learning environment is this public homepage, which was created on GitHub.
+Your primary learning environment is this public homepage, which was created on GitHub. ChatGPT and deepl were used to convey ideas more efficently.
 Here you find all learning materials, assignment tasks, and help. 
-<!-- Note, that ChatGPT and deepl were used to convey ideas more efficently. 
--->
 The structure is linear, so just work your way through it in parallel to the course.
 Of course you can also jump freely between units, but this is not recommended for beginners.
 

@@ -8,8 +8,8 @@ main:
     url: https://geomoer.github.io/moer-info-page/ 
   - title: "Lab Home"
     url: https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics
-  - title: "Base R"
-    url: https://geomoer.github.io/moer-base-r/
+  - title: "Proximate sensing"
+    url: https://geomoer.github.io/moer-bsc-mpg-proximate-sensing/
   - title: "About"
     url: /about.html
     

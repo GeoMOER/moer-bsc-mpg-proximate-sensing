@@ -1,0 +1,9 @@
+- heidrich:
+  name             : "Lea Heidrich"
+  avatar           : "/assets/images/instructors/heidrich.jpg"
+  bio              : "University of Marburg"
+  location         : "Marburg, DE"
+  email            : "lea.heidrich@uni-marburg.de"
+  uri              : "https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics"
+  home             : "https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics"
+  github           : "GeoMOER"

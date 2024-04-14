@@ -38,7 +38,7 @@ These traditional methods can be supplemented by radio telemetry or GPS tags, wh
 **Reptiles & Amphibians**
 Reptiles are a diverse group of ectothermic vertebrates characterised by scales, lungs and typically laying amniotic eggs. Reptiles exhibit thermoregulatory behaviour, basking in the sun to raise their body temperature or seeking shade to cool down. All 13 reptile species in Germany are at least specially protected. Amphibians make up the second group of ectothermic vertebrates. There are around 7,000 known species of amphibians, including frogs, toads, salamanders and caecilians. In Germany, however, there are only 21 species (https://www.bund.net/themen/tiere-pflanzen/tiere/amphibien/heimische-lurche/). The larval stage, which is typically aquatic, is very different from the adult stage (metamorphosis). Despite their dependence on water, they have managed to inhabit a wide range of terrestrial and aquatic ecosystems worldwide, from tropical rainforests to arid deserts - like this little fellow [here](https://www.youtube.com/watch?v=cBkWhkAZ9ds). Amphibians are also known for their sensitivity to environmental changes, burrowing or seeking refuge to avoid extreme temperatures or desiccation. Other deadly challenges include being killed by cars on their way to and from spawning grounds, illegal filling of spawning grounds and the chytrid fungus.
 
-{% include figure image_path="/assets/images/unit_images/unit01/salamander.png" caption="a fire salamander of the Lahnberge" %}
+{% include figure image_path="/assets/images/unit_images/unit01/salamander.jpg" caption="a fire salamander of the Lahnberge" %}
 
 <details><summary>SPOILER</summary>
 <p>

@@ -7,6 +7,8 @@ header:
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
+<!--more-->
+
 To fully comprehend the  potential of proximate sensing technology and address potential challanges, we must have a look at the current status quo of biodiversity monitoring, which we'll refer to as traditional systems henceforth.
 
 **Audio-visual surveys:** This method involves experts observing and recording species presence and partly also behavior through visual and auditory cues, which is often used for birds and other noticeable species such as butterflies. Often, observers walk along predetermined routes or transects through a habitat while recording all observed species and their abundance (transect walks). In ornithology, the observer might also record all bird species seen or heard within a specified radius or time period from a designated point (point count).

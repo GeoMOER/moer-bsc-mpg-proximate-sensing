@@ -5,7 +5,7 @@ date: '2024-04-02 13:00:00 +0100'
 header:
   overlay_color: "#000"
   overlay_filter: 0.6
-  overlay_image: "/assets/images/title/platzhalter.png"
+  overlay_image: "/assets/images/title/header.png"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
   cta_label: Go to course units
   cta_url: "/units.html"
@@ -38,18 +38,7 @@ MSc students should also be able to develop and present a project to improve one
 
 # Setting
 
-This course will take place in a synchronous setting in presence in room **F 14 | 00A19** with the options of visiting real-world examples of proximate sensors around the city.
-
-{: .notice--info}
-
-<!--
-This course will take place in a hybrid setting with a digital classroom and additional students being present in person in the physical classroom (**F 14 | 00A19**).
-Details on this synchronous hybrid classroom format will be provided in the first session, which will take place **in presence only on Tuesday 25.10.2022 at 9:15 am**.
-The link to the digital classroom of the first session is provided in the [Ilias course environment](https://ilias.uni-marburg.de/goto.php?target=crs_2593121&client_id=UNIMR){:target="_blank"} (only accessible for members of the course who are logged-in into Ilias). 
-Please also seriously check and follow the [Information on the Coronavirus](https://www.uni-marburg.de/de/universitaet/administration/sicherheit/coronavirus){:target="_blank"} of the University of Marburg.
--->
-
-
+This course will take place in a synchronous setting in presence in room __F 14 <code>|</code> 00A19__ with the options of visiting real-world examples of proximate sensors around the city.
 
 # Syllabus
 
@@ -72,8 +61,8 @@ The course encompasses 12 sessions from 18.14.2024 to 18.07.2024. Subject to cha
 | 07 | 20.06.2024 | Machine Learning                        | How does machine learning work? |
 | 08 | 27.06.2024 | Training                                | How to generate your very own data |
 ||| **Seminar block** |
-| 09 | 04.07.2024 | Seminar block                           | Present a specific senor box |
-| 10 | 11.07.2024 | Seminar block                           | Present a specific senor box |
+| 09 | 04.07.2024 | Project day                             | Improve your sensor box |
+| 10 | 11.07.2024 | Seminar block                           | Present a specific sensor box |
 | 11 | 18.07.2024 | Wrap up                                 | Time for questions and feedback, individual projects problems, goodbye |
 
 
@@ -82,5 +71,6 @@ The course encompasses 12 sessions from 18.14.2024 to 18.07.2024. Subject to cha
 The graded course certificate will be based on an project report presented either as written report or as a personal repository on GitHub. 
 Additionally, there will be a 12 minute presentation on a recent manuscript, followed by a 3 minute discussion.
 
-# Instructor
-{% include author-profile.html %}
+# Team
+{% for author in site.data.authors %} {% include author-profile.html %}
+{% endfor %}

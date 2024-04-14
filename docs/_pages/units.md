@@ -2,7 +2,7 @@
 title: Course Units
 id: Units
 header:
-  image: "/assets/images/title/platzhalter.png"
+  image: "/assets/images/title/header.png"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 
 permalink: /units.html

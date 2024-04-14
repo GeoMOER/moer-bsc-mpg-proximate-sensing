@@ -5,6 +5,8 @@ header:
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
+<!--more-->
+
 A sensor, derived from the Latin word "sentire" meaning "to feel" or "to perceive," is a technical component capable of detecting specific physical or chemical properties of its surroundings, either qualitatively or quantitatively, and converting them into an electrical signal for further processing. These properties may include temperature, pressure, light intensity, or chemical composition. As you know from remote sensing, sensors can be categorized into active and passive types[^1]. 
 Active sensors produce electrical signals based on the measurement principle, such as electrodynamic or piezoelectric sensors. Passive sensors, on the other hand, utilize passive components whose parameters change with the measured quantity.
 

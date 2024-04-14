@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions
 header:
-  image: '/assets/images/title/platzhalter.png'
+  image: '/assets/images/title/header.png'
   caption: '[Environmental Informatics Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics){:target="_blank"}'
 toc: true
 ---

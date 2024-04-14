@@ -2,13 +2,13 @@
 title: Learning Environment
 toc: true
 header:
-  image: '/assets/images/title/platzhalter.png'
+  image: '/assets/images/title/header.png'
   caption: '[Environmental Informatics Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics){:target="_blank"}'
 ---
 
-In order not to limit the discussion in advance, some of these theoretical foundations should only be looked at when you are asked to do so in the course. These contents are marked as spoilers. If someone wants to use this course purely for self-study, they can of course be viewed immediately.
 
 <!--more-->
+
 
 <!--
 Our first course session will be virtual. Details on the virtual classroom and how to get there are provided on the front page and were send by email to all participants.
@@ -22,6 +22,9 @@ Your primary learning environment is this public homepage, which was created on 
 Here you find all learning materials, assignment tasks, and help. 
 The structure is linear, so just work your way through it in parallel to the course.
 Of course you can also jump freely between units, but this is not recommended for beginners.
+
+
+In order not to limit the discussion in advance, some of these theoretical foundations should only be looked at when you are asked to do so in the course. These contents are marked as spoilers. If someone wants to use this course purely for self-study, they can of course be viewed immediately.
 
 Please also not that the HTML learning environment has a FAQ page for recurring questions and a comment functionality on the first page of each unit.
 

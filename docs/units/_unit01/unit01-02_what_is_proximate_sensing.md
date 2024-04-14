@@ -1,21 +1,26 @@
 ---
 title: What is proximate sensing of biodiversity?
 header:
-  image: "/assets/images/title/platzhalter.png"
+  image: "/assets/images/title/header.png"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 
+ 
+<!--more-->
+
 The title of this course refers to several aspects:
 
-Proximate: as discussed prior, proximate denotes something immediate or direct, as opposed to something distant or remote. The word "proximate" originates from the Latin word "proximatus," which is the past participle of "proximare," meaning "to approach" or "to draw near." In English, "proximate" is used to describe something that is nearest in space, time, order, or relation.
+__Proximate__ as discussed prior, proximate denotes something immediate or direct, as opposed to something distant or remote. The word "proximate" originates from the Latin word "proximatus," which is the past participle of "proximare," meaning "to approach" or "to draw near." In English, "proximate" is used to describe something that is nearest in space, time, order, or relation.
 
-Sensing: "Sensing" refers to the process of detecting or perceiving stimuli or signals from the environment. The Latin verb "sentire" means "to feel" or "to perceive". In technology, sensing involves the ability to detect and interpret information through specialized devices.
+__Sensing__: "Sensing" refers to the process of detecting or perceiving stimuli or signals from the environment. The Latin verb "sentire" means "to feel" or "to perceive". In technology, sensing involves the ability to detect and interpret information through specialized devices.
 
 
 When combining these two aspects alone, proximate sensing refers to the detection and measurement of  properties or phenomena in the immediate vicinity of a sensor
 
+
 **QUESTIONS TO BE DISCUSSED**
 > What are some examples of applications of proximate sensing?
+
 
 In this course, we will focus on the _ecologcial_ properties, adding the third aspect Biodiversity: 
 

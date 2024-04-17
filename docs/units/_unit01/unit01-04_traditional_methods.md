@@ -3,7 +3,7 @@ title: "Traditional monitoring"
 toc: true
 toc_label: In this example
 header:
-  image: "/assets/images/title/Platzhalter.png"
+  image: "/assets/images/title/header.png"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
 

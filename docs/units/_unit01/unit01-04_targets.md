@@ -55,10 +55,15 @@ To monitor Hymenoptera populations, various methods are employed. Visual surveys
 
 Lepidoptera, which includes butterflies and moths, is the order with the second largest number of species after Coleoptera. They can be recognised by their scaled wings, which are covered with tiny overlapping scales that give them their characteristic colours and patterns. In addition, most Lepidoptera species have a proboscis, a long, coiled mouthpart used to feed on nectar and other liquids. However, in some families of moths, such as the Saturniidae (giant silk moths), the proboscis may be reduced or absent in adults. They are holometabolous, going through four distinct life stages: egg, larva (caterpillar), pupa (chrysalis or cocoon) and adult. While adult Lepidoptera feed on nectar, tree sap, rotten fruit or nothing at all, the larval stage is predominantly herbivorous. Caterpillars feed on a wide range of plant material, including leaves, flowers, fruits and stems, and can be significant pests of agriculture and forestry, sometimes devastating entire forests. However, there are also species of Lepidoptera larvae that have specialised feeding habits, such as feeding on lichens or on decaying plant matter such as rotten wood. Butterflies are mostly monitored by transect walking and sweep netting. As butterflies tend to be very colourful compared to their mostly nocturnal counterparts, they are often a target for [citizen science](https://www.ufz.de/tagfalter-monitoring/). Moths, on the other hand, are mostly sampled using light - either with lethal or non-lethal bucket traps or by hand at a light tower, though this is not suitable for all species (Note, that only this year, a [study](https://www.nature.com/articles/s41467-024-44785-3) found the potential reason for that!). That's why one often also spreads bait (rotten fruits, wine-applesauce mixtures).
 
-**plants**
+**Plants**
+Being both sessile and fundamental to human sustenance, plants are a prime target for monitoring. They can be systematically mapped and monitored as needed, particularly those utilized in the context of food production. This is where initial developments in proximate sensing often emerge, aimed at monitoring plant health and potential damage caused by pests.
 
 
+In Germany, there is indeed a regular national inventory of forest conditions. The native vascular plants of Germany, numbering around 4100 species, are typically surveyed within the framework of biotope mapping. Detailed floristic mapping, where all plants in a given area are mapped, is more restricted to scientific surveys or driven by volunteers. However, there has been systematic data integration into the BfN FlorKart database since the late 1980s.
+
+With the emergence of artificial intelligence and tools like [Flora Incognita](https://floraincognita.de/) n combination with citizen science, more data points have been collected, albeit in a less systematic manner. Nevertheless, it remains crucial to conduct repeat site visits to account for plant phenology.
 _____
 
 
 [1]: (https://www.bfn.de/sites/default/files/2021-07/ViD_Uebersichten_zur_Bestandssituation.pdf)
+[2]: https://www.monitoringzentrum.de/steckbriefe/floristische-kartierung-deutschland

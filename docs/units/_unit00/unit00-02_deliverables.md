@@ -20,6 +20,8 @@ Your marked assignment will be to prepare a project work consisting of a 1-2 pag
 <!--
 ### Overview of topics for the seminar
 
+https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14322
+
 Hoye https://www.pnas.org/doi/full/10.1073/pnas.2002545117
 
 Hochkirch https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.13589 

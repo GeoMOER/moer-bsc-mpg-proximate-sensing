@@ -36,6 +36,10 @@ At the end of this unit you should be able to
 * Compare and contrast automated monitoring with traditional monitoring techniques, highlighting advantages and limitations of each approach.
 * Propose sensor deployment strategies based on understanding of target species behaviors and habitat preferences.
 
+
+A very good start to the literature can be found [here](https://www.pnas.org/doi/full/10.1073/pnas.2002545117)
+
+
 [^1]:https://www.mdpi.com/journal/remotesensing/special_issues/Proximal_Sensing_for_Agriculture
 [^2]:https://www.mdpi.com/1424-8220/22/2/497
 

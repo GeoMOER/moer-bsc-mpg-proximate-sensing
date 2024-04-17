@@ -46,7 +46,10 @@ For more information on traditional trapping of insects, see https://doi.org/10.
 <p>
 Many trap systems designed for insects result in samples containing sometimes hundreds of dead individuals from many different species pooled in fixative. Analysis of these samples is very labour-intensive and time-consuming. Individual samples must be manually cleaned and pre-sorted. Identification to species level requires expert knowledge, but as the number of available taxonomists continues to decline, sample analysis can take years. 
 Traditional sampling methods also often involve direct interaction with the study area, such as vegetation surveys, trapping and sample collection. As such, they are often labour intensive and time consuming.
-Proximate sensing, when fully autonomous, should drastically reduce these labour costs. However, today's systems are often semi-autonomous and require, for example, plot visits to collect data [Chapter: Data Flow] or to repower the system [Chapter: Energy]. In addition, such systems can be much more expensive to purchase than traditional methods. Finally, it is important to remember that not all information gathered by experts in the field can be captured by sensors. For example, some species pairs cannot be distinguished based on their outer appearance alone.
+Proximate sensing, when fully autonomous, should drastically reduce these labour costs. However, today's systems are often semi-autonomous and require, for example, plot visits to collect data  or to repower the system. In addition, such systems can be much more expensive to purchase than traditional methods. Finally, it is important to remember that not all information gathered by experts in the field can be captured by sensors. For example, some species pairs cannot be distinguished based on their outer appearance alone.
+
+
+
 </p>
 </details>
 

@@ -85,13 +85,10 @@ collections:
   unit06:
     output: false
     permalink: /:collection/:title.html
-  unit07:
-    output: false
+  unit99:
+    output: true
     permalink: /:collection/:title.html
-  unit08:
-    output: false
-    permalink: /:collection/:title.html
-
+  
 # Default settings
 defaults:
   # unit00
@@ -164,13 +161,13 @@ defaults:
       layout: single
       sidebar:
         nav: "course_unit" 
-  # unit07
+  # Spotlights
   - scope:
       path: ""
-      type: unit07
+      type: unit99
     values:
-      category: "07 Spotlights"
-      tags: "Unit 07"
+      category: "Spotlights"
+      tags: "Spotlights"
       layout: single
       sidebar:
         nav: "course_unit" 

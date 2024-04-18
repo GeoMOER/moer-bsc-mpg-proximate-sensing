@@ -48,11 +48,12 @@ The course encompasses 12 sessions from 18.14.2024 to 18.07.2024. Subject to cha
 |---------|------|-------|---------|
 ||| **Basics** |
 | 01 | 18.04.2024 | First things first                      | How this course works, Why is proximate sensing relevant? How do proximate sensing methods differ from traditional ones?  |
-| 02 | 25.04.2024 | Sensors & targets                       | Which sensor boxes are there and how do they work? Which sensor to choose? |
+| 02 | 25.04.2024 | Sensors & targets, conceptualization    | Which sensor boxes are there and how do they work? How to build your sensor box? |
 ||| **DIY Sensor Box** |
-| 03 | 02.05.2024 | Conceptualization                       | How to build and program your sensor box? |
+| 03 | 02.05.2024 | Programming                             | How to program your sensor box?|
 | -- | Christi Himmelfahrt
-| 04 | 16.05.2024 | Data, power, casing and handalability   | How to make your sensor box last? |
+| 04 | 16.05.2024 | Programming                             | How to program your sensor box? (II) |
+| 05 | 23.05.2024 | Power & Data transfer                   | How to transfer data/ Preperation of field test |
 | -- | 30.05.2024 | Fronleichnam
 ||| **The Senor Box vs. nature** |
 | 05 | 06.06.2024 | Field visit/test                        | How effective are sensor boxes in capturing the target? (I)|

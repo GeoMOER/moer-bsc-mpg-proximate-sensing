@@ -7,7 +7,7 @@ header:
 
 In the last unit, you became familiar with the GPIOs. The basic principle is that these pins can be programmed, here demonstrated in Python. After connecting your sensor to the pins (see unit02-04), you first must:
 
-1) mport the RPi.GPIO module: This module is necessary to control the GPIO pins. Import it using:
+1) import the RPi.GPIO module: This module is necessary to control the GPIO pins. Import it using:
 
 ```
 import RPi.GPIO as GPIO

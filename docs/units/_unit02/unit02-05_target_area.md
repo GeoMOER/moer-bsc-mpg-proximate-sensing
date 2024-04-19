@@ -6,6 +6,7 @@ header:
 ---
 
 Every sensor has a physical detection range and area, which is further variably limited by other factors. 
+{% include figure image_path="/assets/images/unit_images/unit02/Sensorbox_highlighted_target.png" caption="the targets of the sensor" %}
 
 For example, **microphones** used in bird surveys or wildlife monitoring can have widely varying detection ranges. Standard microphones may detect sounds within ranges of tens of meters to a few hundred meters, depending on factors such as ambient noise levels, background vegetation, and the vocalizations of the target species.
 
@@ -16,6 +17,8 @@ Ultrasonic microphones used in bat studies can also have detection ranges rangin
 The detection range of a **camera** is determined by its focal length, angle of view, sensor size, aperature size and optical quality.  Therefore, the greatest distance a camera can cover varies greatly depending on the type of camera, and of course the environment. Most trail cameras capture relatively nearby areas up to ~ 10 meters.
 
 If animals are not only to be passively recorded, but actively lured towards the sensor, the target area can be equipped with attractants accordingly. Most automated moth monitoring stations use various light sources to attract as many insects as possible[^1]<sup>,</sup>[^2]<sup>,</sup>[^3]. Those that are more focused on pollinators often use yellowish tones, which are used in parallel as background[^3]<sup>,</sup>[^4]. Alternatively, animals can also be directed towards the capture surface by building guiding structures.
+
+
 
 ## QUESTIONS ##
 *How does the design of the target area affect the comparability between sensor boxes? 

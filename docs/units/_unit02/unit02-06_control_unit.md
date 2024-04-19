@@ -6,6 +6,7 @@ header:
 ---
 
  At their core, control units are essentially electronic devices responsible for managing and directing the operation of other components within a system. In the context of biodiversity monitoring, a control unit, such as a microcontroller or a mini-computer like a Raspberry Pi, serves as the brain of the monitoring setup.
+{% include figure image_path="/assets/images/unit_images/unit02/Sensorbox_highlighted_computer.png" caption="the control unit of the sensorbox" %}
 
  Control units interface with the various sensors to gather data from the surrounding environment. They can also control additional equipment, such as the UV light. Once the control unit receives data from the sensors, it might processes this information using embedded software and/or automatically store the data and or pass the data to be transmitted according to schedule.
 

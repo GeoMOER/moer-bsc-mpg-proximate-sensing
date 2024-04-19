@@ -9,7 +9,7 @@ header:
 
 # A theory of sound
 Acoustic sensors, such as microphones or hydrophones, record sounds produced by animals, including vocalizations, mating calls, and other bioacoustic signals.
-Basically, what a microphone does is convert sound into a small electrical current through a diaphragm that vibrates when it's hit by the sound wave.  This movement then affects a magnet near a coil, or vice versa, creating the electrical current. Carl R. Nave has a wonderful technical drawings which explain it in detail, [here] (http://hyperphysics.phy-astr.gsu.edu/hbase/Audio/mic.html)[^1].
+Basically, what a microphone does is convert sound into a small electrical current through a diaphragm that vibrates when it's hit by the sound wave.  This movement then affects a magnet near a coil, or vice versa, creating the electrical current. Carl R. Nave has a wonderful technical drawings which explain it in detail, [here](http://hyperphysics.phy-astr.gsu.edu/hbase/Audio/mic.html)[^1].
 
 
 The sound waves travel through a medium, typically air, but they can also propagate through liquids and solids. They are created by the vibration of an object, such as vocal cords which causes the particles in the surrounding medium to oscillate and transmit the energy of the vibration. The important characteristics of a sound wave are frequency, amplitude and wavelength.
@@ -19,9 +19,8 @@ Animal vocalizations typically exhibit distinctive spectral characteristics, whe
 
 Once recordings are made, researchers analyze the audio data using specialized software capable of detecting and classifying sounds of interest. This process often involves the use of machine learning algorithms trained to recognize specific animal vocalizations based on their acoustic features.
 
-Have a look at this brilliant video by Alison Styring, which exmplains the aforementioned principles:
+Have a look at this brilliant video by Alison Styring, which exmplains the aforementioned principles[^2]:<br/>
 [![](https://markdown-videos-api.jorgenkh.no/youtube/cvua_hycOUA)](https://youtu.be/cvua_hycOUA)
-https://www.youtube.com/watch?v=cvua_hycOUA
 
 There are two ways in which one can graphically represent sound. An oscillogram, also known as a waveform or time-domain plot, displays the amplitude of a sound signal over time.  Oscillograms provide a visual representation of the temporal characteristics of a sound signal. They are useful for analyzing features such as the duration of sounds, temporal patterns, and the presence of individual sound events within the signal. An audiospectrogram, also known as a spectrogram or frequency-domain plot, provides a more detailed analysis of the frequency content of a sound signal over time. Audiospectrograms are valuable for analyzing the spectral characteristics of sound signals, including the distribution of energy across different frequency bands, the presence of harmonics or overtones, and the occurrence of frequency modulations or shifts
 
@@ -39,7 +38,7 @@ Autonomous Recording Units (ARUs) are typically equipped with microphones capabl
 <details><summary>SPOILER</summary>
 <p>
 
-Human point counts include visual detections, which are beneficial but often under-reported in studies comparing point counts with ARUs. On the other hand, humans may introduce an avoidance effect that affects bird detections, especially when multiple observers are present. In addition, humans may miss some birds, especially during dawn chorus or due to human error, whereas recordings can be replayed, re-analyses and have the advantage of being verifiable by other people [^2]. - A qualitative call recording is stronger evidence than someone claiming to have heard a particular species. 
+Human point counts include visual detections, which are beneficial but often under-reported in studies comparing point counts with ARUs. On the other hand, humans may introduce an avoidance effect that affects bird detections, especially when multiple observers are present. In addition, humans may miss some birds, especially during dawn chorus or due to human error, whereas recordings can be replayed, re-analyses and have the advantage of being verifiable by other people [^3]. - A qualitative call recording is stronger evidence than someone claiming to have heard a particular species. 
 
 
 </p>
@@ -47,4 +46,5 @@ Human point counts include visual detections, which are beneficial but often und
 <!-- more to be added>
 
 [^1]: [http://hyperphysics.phy-astr.gsu.edu/hbase/Audio/mic.html](http://hyperphysics.phy-astr.gsu.edu/hbase/Audio/mic.html)
-[^2]: [https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eap.1954](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eap.1954)
+[^2]: [https://www.youtube.com/watch?v=cvua_hycOUA](https://www.youtube.com/watch?v=cvua_hycOUA)
+[^3]: [https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eap.1954](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/eap.1954)

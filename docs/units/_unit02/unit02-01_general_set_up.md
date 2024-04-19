@@ -4,7 +4,7 @@ header:
   image: "/assets/images/title/header.png"
   caption: 'Image: [**Environmental Informatics Marburg**](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 ---
-
+*The sensor box*
 <!--more-->
 
 In this unit, we're going to take a closer look at the heart of Proximate Sensing: the sensor box. 

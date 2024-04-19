@@ -15,8 +15,14 @@ Ultrasonic microphones used in bat studies can also have detection ranges rangin
 
 The detection range of a **camera** is determined by its focal length, angle of view, sensor size, aperature size and optical quality.  Therefore, the greatest distance a camera can cover varies greatly depending on the type of camera, and of course the environment. Most trail cameras capture relatively nearby areas up to ~ 10 meters.
 
-If animals are not only to be passively recorded, but actively lured towards the sensor, the target area can be equipped with attractants accordingly. Most automated moth monitoring stations use various light sources to attract as many insects as possible (https://www.sciencedirect.com/science/article/pii/S1439179122000032, https://www.mdpi.com/1424-8220/21/2/343, https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/icad.12662). Those that are more focused on pollinators often use yellowish tones, which are used in parallel as background (https://diopsis.eu/en/camera/, https://maxsitt.github.io/insect-detect-docs/). Alternatively, animals can also be directed towards the capture surface by building guiding structures.
+If animals are not only to be passively recorded, but actively lured towards the sensor, the target area can be equipped with attractants accordingly. Most automated moth monitoring stations use various light sources to attract as many insects as possible[^1]<sup>,</sup>[^2]<sup>,</sup>[^3]. Those that are more focused on pollinators often use yellowish tones, which are used in parallel as background[^3]<sup>,</sup>[^4]. Alternatively, animals can also be directed towards the capture surface by building guiding structures.
 
 ## QUESTIONS ##
 *How does the design of the target area affect the comparability between sensor boxes? 
-*If there's a fixed background, how could the background-colour and material affect the results?
+*If there's a fixed background, how could the background-color and material affect the results?
+
+[^1]:[https://www.sciencedirect.com/science/article/pii/S1439179122000032](https://www.sciencedirect.com/science/article/pii/S1439179122000032)
+[^2]:[https://www.mdpi.com/1424-8220/21/2/343](https://www.mdpi.com/1424-8220/21/2/343)
+[^3]:[https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/icad.12662](https://resjournals.onlinelibrary.wiley.com/doi/full/10.1111/icad.12662)
+[^4]:[https://diopsis.eu/en/camera/](https://diopsis.eu/en/camera/)
+[^5]:[https://maxsitt.github.io/insect-detect-docs/](https://maxsitt.github.io/insect-detect-docs/)

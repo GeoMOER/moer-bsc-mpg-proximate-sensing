@@ -18,8 +18,8 @@ Active sensors produce electrical signals based on the measurement principle, su
 
 <!-- Animal ~ Signal ~ Sensor ~ Information-->
 
-The most commonly used sensors are based on acoustic and visual signals. However, there are also sensors based on [Radar](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7923785/)
+The most commonly used sensors are based on acoustic and visual signals. However, there are also sensors based on [Radar](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7923785/)[^2]
 
 
-[1] https://learn.opengeoedu.de/fernerkundung/vorlesung/Fernerkundung/grundlagen_teil1
-
+[^1]: [https://learn.opengeoedu.de/fernerkundung/vorlesung/Fernerkundung/grundlagen_teil1](https://learn.opengeoedu.de/fernerkundung/vorlesung/Fernerkundung/grundlagen_teil1)
+[^2]: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7923785/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7923785/)

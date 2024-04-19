@@ -15,7 +15,7 @@ __Proximate__ as discussed prior, proximate denotes something immediate or direc
 __Sensing__: "Sensing" refers to the process of detecting or perceiving stimuli or signals from the environment. The Latin verb "sentire" means "to feel" or "to perceive". In technology, sensing involves the ability to detect and interpret information through specialized devices.
 
 
-When combining these two aspects alone, proximate sensing refers to the detection and measurement of  properties or phenomena in the immediate vicinity of a sensor
+When combining these two aspects alone, proximate sensing refers to the detection and measurement of  properties or phenomena in the immediate vicinity of a sensor.
 
 
 **QUESTIONS TO BE DISCUSSED**

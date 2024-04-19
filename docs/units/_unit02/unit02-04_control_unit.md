@@ -30,16 +30,19 @@ Digital Input/Output (I/O) Pins: These pins can be configured to either input or
 
 Communication Pins: These pins facilitate communication between the microcontroller and other devices using various communication protocols such as UART, SPI, and I2C. On a Raspberry Pi, these pins are multipurpose GPIO pins that can be configured for communication protocols.
 
-Which one is which can be seen in so called [PIN diagrams](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*9jh96r*_ga*ODU1NzcyNTE0LjE3MTI1NzQ2OTQ.*_ga_22FD70LWDS*MTcxMjU4NTkzNS4xMy4xLjE3MTI1ODcxNzYuMC4wLjA.) or [here](https://pinout.xyz/pinout/3v3_power)
+Which one is which can be seen in so called PIN diagrams[^1]<sup>,</sup>[^2].
 
-Attention:  wrong wiring can fry your sensor box. In this course, your creativity will thus be tested using [simulations](https://wokwi.com/) 
+Attention:  wrong wiring can fry your sensor box. In this course, your creativity will thus be tested using simulations[^3].
 
 Have a look at this tutorial by Andreas Spiess on how to connect the sensors to the control unit:
 https://www.youtube.com/watch?v=gnE4v-PcYKQ
 
 
 ## Practice:
-Now get familiar with the simulator, add a infrared sensor, be able to describe it to your peers and connect it to your pi pico:
-https://wokwi.com/projects/new/pi-pico
+Now get familiar with the simulator, add a infrared sensor, be able to describe it to your peers and connect it to your pi pico:<br/>
+[https://wokwi.com/projects/new/pi-pico](https://wokwi.com/projects/new/pi-pico)
 
 
+[^1]: [https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*9jh96r*_ga*ODU1NzcyNTE0LjE3MTI1NzQ2OTQ.*_ga_22FD70LWDS*MTcxMjU4NTkzNS4xMy4xLjE3MTI1ODcxNzYuMC4wLjA](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*9jh96r*_ga*ODU1NzcyNTE0LjE3MTI1NzQ2OTQ.*_ga_22FD70LWDS*MTcxMjU4NTkzNS4xMy4xLjE3MTI1ODcxNzYuMC4wLjA)
+[^2]: [https://pinout.xyz/pinout/3v3_power](https://pinout.xyz/pinout/3v3_power)
+[^3]: [https://wokwi.com/](https://wokwi.com/)

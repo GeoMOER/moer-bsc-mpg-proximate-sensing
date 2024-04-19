@@ -29,7 +29,7 @@ GPIO.setmode(GPIO.BCM)
 
 
 3) Define your GPIO pin:
-Define the pin number you are using for your sensor according to the chosen numbering [scheme](hhttps://raspberrypi.stackexchange.com/questions/12966/what-is-the-difference-between-board-and-bcm-for-gpio-pin-numbering) 
+Define the pin number you are using for your sensor according to the chosen numbering scheme[^1].
 
 Here, we called it "sensor"
 ```
@@ -50,7 +50,9 @@ When you set a pin to GPIO.OUT, it means you intend to control devices connected
 On the other hand, when you configure a GPIO pin as an input (GPIO.setup(pin, GPIO.IN)), you're telling the Raspberry Pi that you want to read the state of that pin in your program. You typically use input pins to detect signals or changes in the electrical state from external devices connected to them. For example, you might connect a button to an input pin and use it to detect when the button is pressed or released.
 
 
-For a more detailed instruction (in german), klick [here](https://tutorials-raspberrypi.de/raspberry-pi-gpio-erklaerung-beginner-programmierung-lernen/)
+For a more detailed instruction (in german), klick [here](https://tutorials-raspberrypi.de/raspberry-pi-gpio-erklaerung-beginner-programmierung-lernen/)[^2]
 
 With these steps completed, you're ready to unleash your creativity, loop, and conquer.
 
+[^1]: [hhttps://raspberrypi.stackexchange.com/questions/12966/what-is-the-difference-between-board-and-bcm-for-gpio-pin-numbering](hhttps://raspberrypi.stackexchange.com/questions/12966/what-is-the-difference-between-board-and-bcm-for-gpio-pin-numbering)
+[^2]: [https://tutorials-raspberrypi.de/raspberry-pi-gpio-erklaerung-beginner-programmierung-lernen/](https://tutorials-raspberrypi.de/raspberry-pi-gpio-erklaerung-beginner-programmierung-lernen/)

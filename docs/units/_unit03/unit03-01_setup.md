@@ -11,7 +11,7 @@ Computing devices and microcontrolers such as the Raspberry Pi, Raspberry Pi Pic
 
 Depending on the device you're using, you'll need to install the appropriate software.
 The Raspberry Pi series of single-board computers (including Raspberry Pi Zero) runs on an operating system, such as Raspberry Pi OS (formerly known as Raspbian), Ubuntu, or other compatible Linux distributions. Raspberry Pi OS is the official operating system provided by the Raspberry Pi Foundation and is optimized for Raspberry Pi hardware. To effectively use them, install the RPI imager [^2] and then flash the operating system like onto a MicroSD card. For Arduino, you'll need to download and install the Arduino IDE on your computer.
-{% include figure image_path="/assets/images/unit_images/unit03/wiring.png" caption="the Arduino IDE" %}
+{% include figure image_path="/assets/images/unit_images/unit03/wiring.PNG" caption="the Arduino IDE" %}
 
 Note: in the course, your control unit will already be equipped with the needed sofware.
 

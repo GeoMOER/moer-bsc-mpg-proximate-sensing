@@ -5,6 +5,8 @@ header:
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
 
+*Programming of the Raspberry Pi*
+<!--more-->
 Computing devices and microcontrolers such as the Raspberry Pi, Raspberry Pi Pico, Raspberry Pi Zero, Arduino can be used  for a wide range of projects, from simple DIY electronics to advanced IoT (Internet of Things)[^1] applications. In this introduction, we'll explore the basics of configuring these devices and getting started with your projects.
 
 Depending on the device you're using, you'll need to install the appropriate software.

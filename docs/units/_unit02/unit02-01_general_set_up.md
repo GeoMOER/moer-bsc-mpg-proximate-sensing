@@ -4,7 +4,7 @@ header:
   image: "/assets/images/title/header.png"
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
-*The sensor box*
+*The Sensor Box*
 <!--more-->
 
 In this unit, we're going to take a closer look at the heart of Proximate Sensing: the sensor box. 

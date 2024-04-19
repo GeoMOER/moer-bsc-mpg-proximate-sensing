@@ -5,6 +5,7 @@ header:
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
 
+*Targets and Traps*
 <!--more-->
 
 With the rapid decline of global biodiversity and the increasing threat of species extinction, there is a growing interest in accurately and efficiently monitoring the health and distribution of species and ecosystems. Traditional field surveys involve audio-visual surveys or trapping in the field to document the presence, abundance and distribution of species. These methods provide high quality information, but they are labour intensive and therefore limited in area and time covered.

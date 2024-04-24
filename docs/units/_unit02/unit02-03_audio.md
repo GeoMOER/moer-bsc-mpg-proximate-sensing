@@ -22,7 +22,7 @@ Animal vocalizations typically exhibit distinctive spectral characteristics, whe
 
 Once recordings are made, researchers analyze the audio data using specialized software capable of detecting and classifying sounds of interest. This process often involves the use of machine learning algorithms trained to recognize specific animal vocalizations based on their acoustic features.
 
-Have a look at this brilliant video by Alison Styring, which exmplains the aforementioned principles[^2]:<br/>
+Have a look at this brilliant video by Alison Styring, which exemplifies the aforementioned principles[^2]:<br/>
 [![](https://img.youtube.com/vi/cvua_hycOUA/0.jpg)](https://youtu.be/cvua_hycOUA "Understanding sound by A. Styring")
 
 There are two ways in which one can graphically represent sound. A waveform or time-domain plot displays the amplitude of a sound signal over time. It provides a visual representation of the temporal characteristics of a sound signal. It is useful for analyzing features such as the duration of sounds, temporal patterns, and the presence of individual sound events within the signal.

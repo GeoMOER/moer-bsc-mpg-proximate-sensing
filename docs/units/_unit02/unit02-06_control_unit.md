@@ -35,7 +35,7 @@ Which one is which can be seen in so called PIN diagrams[^1]<sup>,</sup>[^2].
 
 Attention:  wrong wiring can fry your sensor box. In this course, your creativity will thus be tested using simulations[^3].
 
-Have a look at this tutorial by Andreas Spiess on how to connect the sensors to the control unit:
+Have a look at this tutorial by Andreas Spiess on how to connect the sensors to the control unit: 
 [![](https://img.youtube.com/vi/gnE4v-PcYKQ/0.jpg)](https://youtu.be/gnE4v-PcYKQ "Connect sensors")
 
 

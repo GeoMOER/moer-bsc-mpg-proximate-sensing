@@ -1,5 +1,5 @@
 ---
-title: target area
+title: Target area
 header:
   image: "/assets/images/title/header.png"
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
@@ -21,8 +21,8 @@ If animals are not only to be passively recorded, but actively lured towards the
 
 
 ## QUESTIONS ##
-*How does the design of the target area affect the comparability between sensor boxes? 
-*If there's a fixed background, how could the background-color and material affect the results?
+* How does the design of the target area affect the comparability between sensor boxes?  
+* If there's a fixed background, how could the background-color and material affect the results?
 
 [^1]:[https://www.sciencedirect.com/science/article/pii/S1439179122000032](https://www.sciencedirect.com/science/article/pii/S1439179122000032)
 [^2]:[https://www.mdpi.com/1424-8220/21/2/343](https://www.mdpi.com/1424-8220/21/2/343)

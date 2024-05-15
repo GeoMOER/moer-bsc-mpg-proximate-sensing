@@ -77,7 +77,7 @@ collections:
     output: true
     permalink: /:collection/:title.html
   unit04:
-    output: false
+    output: true
     permalink: /:collection/:title.html
   unit05:
     output: false

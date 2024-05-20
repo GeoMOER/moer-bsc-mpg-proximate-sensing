@@ -37,6 +37,9 @@ Select a battery or power bank with enough capacity to meet your needs. For a Ra
 
 Ensure the power bank or battery has proper protection against overcharge, over-discharge, and short-circuiting. Many commercial power banks include these protections, which are vital for safe operation in the field.
 
+{% include figure image_path="/assets/images/unit_images/unit04/IMG_20240515_183607_793.jpg" caption="The battery" %}
+
+
 ### Potential Batteries
 
 #### Lead-Acid Batteries
@@ -83,6 +86,8 @@ Consider the lifespan of the batteries in terms of charge cycles. Rechargeable b
 ### Solar Power Integration
 
 By converting sunlight into electricity, solar panels can provide a continuous power supply during daylight hours, and with proper battery integration, they can power devices overnight or during cloudy days. High-efficiency panels can generate more electricity from the same amount of sunlight, which is especially useful in areas with limited sunlight or space for panels. Calculate your device's average daily power consumption to determine the necessary panel size.
+
+{% include figure image_path="/assets/images/unit_images/unit04/IMG_20240515_181943_568.jpg" caption="The solar panel" %}
 
 #### Calculating Solar and Battery Needs
 

@@ -80,7 +80,7 @@ collections:
     output: true
     permalink: /:collection/:title.html
   unit05:
-    output: false
+    output: true
     permalink: /:collection/:title.html
   unit06:
     output: false
@@ -146,7 +146,7 @@ defaults:
       path: ""
       type: unit05
     values:
-      category: "05 AI"
+      category: "05 Data processing"
       tags: "Unit 05"
       layout: single
       sidebar:

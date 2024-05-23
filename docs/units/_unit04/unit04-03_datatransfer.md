@@ -14,10 +14,10 @@ There are several options for transferring data from field devices to a cloud, s
 
 **LoRa Networks** have extensive coverage and minimal power consumption. When a sensor device initiates a data transfer, it communicates with a nearby LoRa gateway using low-power radio waves. The gateway then relays the data to a network server, which routes it to the intended destination, whether it's another device or a server on the internet. To transfer data from your sensor box via LoRa, you need a LoRa module, such as the RFM95W or SX1278, connected to the Raspberry Pi via SPI or UART connection. After installing necessary libraries, you can then write a script to initialize and communicate with the LoRa module.
 
-**Bluetooth**: Sensors equipped with Bluetooth modules can transmit data over short distances to nearby receivers or servers. This approach is ideal for applications where the sensor box is within proximity of the receiving device, such as smartphones or computers. When a sensor device initiates a data transfer, it communicates directly with the nearby Bluetooth-enabled device using short-range radio waves. The receiving device can then process the data or forward it to a server on the internet. To transfer data from your sensor box via Bluetooth, you need a Bluetooth module, such as the HC-05 or HC-06, connected to the Raspberry Pi via UART connection. After installing necessary libraries, you can then write a script to pair and communicate with the Bluetooth mod
+**Bluetooth**: Sensors equipped with Bluetooth modules can transmit data over short distances to nearby receivers or servers. This approach is ideal for applications where the sensor box is within proximity of the receiving device, such as smartphones or computers. When a sensor device initiates a data transfer, it communicates directly with the nearby Bluetooth-enabled device using short-range radio waves. The receiving device can then process the data or forward it to a server on the internet. To transfer data from your sensor box via Bluetooth, you need a Bluetooth module, such as the HC-05 or HC-06, connected to the Raspberry Pi via UART connection. After installing necessary libraries, you can then write a script to pair and communicate with the Bluetooth mod.  
 
 
-To sum it up:
+To sum it up:  
 
 | **Feature**         | **WiFi**                                | **LTE**                           | **LoRa**                              | **Bluetooth**                       |
 |---------------------|-----------------------------------------|-----------------------------------|---------------------------------------|-------------------------------------|
@@ -29,10 +29,9 @@ To sum it up:
 | **Cost**               | Moderate (depends on network setup)  | High (data plans required)        | Low (low-cost modules)                | Low                                 |
 | **Latency**            | Low to moderate                      | Low to moderate                   | High                                  | Low                                 |
 | **Use Cases**          | Home/office networks, hotspots       | Remote areas, mobile data transfer | IoT applications, remote monitoring  | Peripheral connections, initial setup |
-| **Data Types**            | Multimedia, large files, web browsing | Multimedia, large files, web browsing | Small packets, sensor data              | Small packets, sensor data, audio     |
+| **Data Types**            | Multimedia, large files, web browsing | Multimedia, large files, web browsing | Small packets, sensor data              | Small packets, sensor data, audio     |  
 
-
-[Free Tutorial on technical details] (https://oer.vhb.org/edu-sharing/components/render/ab43ab22-ed46-4902-ad33-70a33bea981f?id=5b9e74ec-eb54-4591-951e-1f892b483d8e)
+[Free Tutorial on technical details](https://oer.vhb.org/edu-sharing/components/render/ab43ab22-ed46-4902-ad33-70a33bea981f?id=5b9e74ec-eb54-4591-951e-1f892b483d8e)
 
 
 

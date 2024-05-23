@@ -13,8 +13,9 @@ The control unit and all additional electronic components need power. A standard
 
 To estimate the runtime, use the following formula:
 
+```r
 Estimated Runtime (hours) = (Power Bank Capacity in mAh) / (Device Consumption in mA)
-
+```
 
 This is an ideal calculation and assumes 100% efficiency in energy transfer, which in reality is lower due to losses in voltage conversion and other inefficiencies. A typical power bank might have an efficiency around 80% to 90%.
 
@@ -22,8 +23,9 @@ This is an ideal calculation and assumes 100% efficiency in energy transfer, whi
 
 So, if we adjust for an 85% efficiency:
 
+```r
 Adjusted Runtime (hours) = (Power Bank Capacity in mAh * 0.85) / (Device Consumption in mA)
-
+```
 
 This means, for a device consuming 300 mA, a 10,000 mAh power bank could potentially power it for approximately 28.33 hours under typical conditions. The runtime will vary based on the actual power consumption of the device and the efficiency of the power bank.
 
@@ -83,30 +85,44 @@ Battery performance can vary significantly with temperature. Lithium-ion batteri
 
 Consider the lifespan of the batteries in terms of charge cycles. Rechargeable batteries can degrade over time, reducing their capacity. For long-term deployments, choose batteries with a high cycle life and consider the environmental impact of disposal or recycling.
 
+
+Have a look at this video by Explaining Computers to fortify your knowledge:<br/>
+[![](https://img.youtube.com/vi/lPyDtuzYE5s/0.jpg)](https://youtu.be/lPyDtuzYE5s "Powering a Raspberry pi")
+
+
+
 ### Solar Power Integration
 
 By converting sunlight into electricity, solar panels can provide a continuous power supply during daylight hours, and with proper battery integration, they can power devices overnight or during cloudy days. High-efficiency panels can generate more electricity from the same amount of sunlight, which is especially useful in areas with limited sunlight or space for panels. Calculate your device's average daily power consumption to determine the necessary panel size.
 
-{% include figure image_path="/assets/images/unit_images/unit04/IMG_20240515_181943_568.jpg" caption="The solar panel" %}
+{% include figure image_path="/assets/images/unit_images/unit04/IMG_20240515_181943_568.jpg" caption="The solar panels used in Natur 4.0" %}
 
 #### Calculating Solar and Battery Needs
 
 1. **Calculate Daily Power Needs:** Sum up the power consumption of all components in your sensor box. If a camera consumes 5W and is active for 2 hours a day, and a sensor consumes 0.5W continuously, the total energy needed is:
+
+```r
 Total Daily Energy = (Power Consumption of Each Device × Hours Active) + (Continuous Power × 24 hours)
+```
 
 For the given example:
 
+```r
 Total Energy = (5W × 2h) + (0.5W × 24h) = 10Wh + 12Wh = 22Wh per day
-
+```
 
 2. **Determine Solar Panel Size:** Suppose you have 5 hours of effective sunlight. To meet the daily energy needs of 22Wh, calculate the required panel wattage:
 
+```r
 Required Panel Wattage = Total Daily Energy / Effective Sunlight Hours
-
+```
 
 For the example:
 
+
+```r
 Required Panel Wattage = 22Wh / 5h = 4.4W
+```
 
 
 Considering inefficiencies and losses, a 10W panel might be a practical choice.
@@ -118,8 +134,9 @@ Required Battery Capacity = Total Daily Energy × Number of Days Without Sun / B
 
 For the example:
 
+```r
 Required Battery Capacity = 22Wh × 3 / 12V = 5.5Ah
-
+```
 
 4. **Monitoring and Management:** Implement battery monitoring to track voltage, current, and temperature. This helps manage the battery's health and predict when replacements or recharges are needed.
 

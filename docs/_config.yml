@@ -80,10 +80,10 @@ collections:
     output: true
     permalink: /:collection/:title.html
   unit05:
-    output: true
+    output: false
     permalink: /:collection/:title.html
   unit06:
-    output: false
+    output: true
     permalink: /:collection/:title.html
   unit99:
     output: true

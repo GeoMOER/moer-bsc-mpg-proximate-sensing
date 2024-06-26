@@ -34,7 +34,7 @@ Your unmarked assignment will be to present a paper on recent developments in th
 
 ### Project work
 
-Your marked assignment will be to prepare a project work consisting of a 1-2 page introduction, 3-5 pages of description (depends on the project), and 2 pages of discussion. This assignment can also be presented in form of a github page.
+Your marked assignment will be to prepare a project work consisting of a 1-2 page introduction, 3-5 pages of description of the setting, **1-2 pages of analysis and results**, and 2 pages of discussion. This assignment can also be presented in form of a github page. You can submit group projects, but each person must individually address the sections "Analysis" and "Results" for their choosen question. This means that each of you should work on your own section on analysis and results for the specific question you are responsible for.
 
 
 

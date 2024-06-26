@@ -1,9 +1,11 @@
 ---
-title: Artificial intelligence
+title: Artificial intelligence - the very basics
 header:
   image: "/assets/images/title/header.png"
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
+
+<!--more--> 
 
 Let's assume we've built the perfect energy-efficient sensor, which runs reliably in its designated location and continuously provides us with high-quality images or audio data, each capturing our target perfectly. All this would be pointless if there wasn't a way to automatically classify these images and potentially even identify species, as manually reviewing the images would be extremely time-consuming and exhausting. We need **Artificial Intelligence (AI)**.
 
@@ -63,16 +65,9 @@ A class of deep neural networks commonly used for analyzing visual data are so c
 <!--
 https://saturncloud.io/blog/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way/
 http://neuralnetworksanddeeplearning.com/chap3.html
--->
-
-
-
 # TUNING with hyperparameters
-
 backpropagation video
-
 cito package parameters
-
 # Bias- Variance- Trade-off
-
 https://playground.tensorflow.org/#activation=tanh&batchSize=11&dataset=xor&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=5&networkShape=4,2&seed=0.96509&showTestData=false&discretize=false&percTrainData=20&x=true&y=true&xTimesY=true&xSquared=true&ySquared=true&cosX=false&sinX=true&cosY=false&sinY=true&collectStats=false&problem=classification&initZero=false&hideText=false
+-->

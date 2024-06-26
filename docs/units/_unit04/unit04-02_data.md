@@ -4,7 +4,8 @@ header:
   image: "/assets/images/title/header.png"
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
-
+  
+<!--more-->
 How the data will be transferred will also determine whether your sensor box get’s fully automated or not. 
 
 Data can be stored locally, be directly transferred, or a combination of both

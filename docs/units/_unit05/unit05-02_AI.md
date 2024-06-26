@@ -5,6 +5,7 @@ header:
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
 
+  
 <!--more--> 
 
 Let's assume we've built the perfect energy-efficient sensor, which runs reliably in its designated location and continuously provides us with high-quality images or audio data, each capturing our target perfectly. All this would be pointless if there wasn't a way to automatically classify these images and potentially even identify species, as manually reviewing the images would be extremely time-consuming and exhausting. We need **Artificial Intelligence (AI)**.

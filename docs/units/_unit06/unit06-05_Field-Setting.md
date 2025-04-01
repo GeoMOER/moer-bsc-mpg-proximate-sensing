@@ -12,8 +12,16 @@ The project was conducted in the New Botanical Garden in Marburg on a meadow are
 
 The butterfly pupae were placed in the flight cages to hatch. Fresh host plants were regularly placed in a water-filled container for the adult insects. The camera trap was attached to a wooden stake, pointing towards the ground. The holder with the colored panels was mounted just above the ground, at the height of the meadow herbs (Fig. 5). The holder always contained two panels of the same color (yellow, blue, flower texture) but made of two different materials: matte rigid foam and acrylic glass. The panel sets were regularly swapped between the flight cages to compensate for potential location-specific errors.
 
+<table>
+  <tr>
+  <td>
 {% include figure image_path="/assets/images/unit_images/unit06/Vanessa-cardui.png" caption="Painted lady - *Vanessa cardui*" %}
+  </td>
+  <td>
 {% include figure image_path="/assets/images/unit_images/unit06/Inside-cage.png" caption="The setup within the flight cages included rearing enclosures with counted butterfly pupae, a container with host plants, and the camera trap setup with the colored panels." %}
+  </td>
+  </tr>
+</table>
 
 The camera trap was powered by a solar panel and a recreational vehicle battery (Fig. 6). An LED light is attached to the camera.
 

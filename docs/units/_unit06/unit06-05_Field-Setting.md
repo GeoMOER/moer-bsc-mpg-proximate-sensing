@@ -25,5 +25,7 @@ To ensure the setting functions continuously and avoids unexpected failures, it 
 
 ## Materials
 
-To test what attracts the insects best, we used panels in the colors yellow, blue, and wildflower meadow, each in two materials: acrylic (glossy and smooth) and rigid foam (matte and rough). The orientation of the panels varied between flat and angled. The camera has LED lights that replace the flash, allowing insects to be recorded at night as well. Originally, we intended to distinguish between color and material, however, the analysis only considers the color and not the material or the orientation. Similarly, we planned to evaluate the data for both day and night. However, since the moths have died, there is not enough data for the nights, which would skew the analysis, so we are focusing solely on the day in this analysis.
+To test what attracts the insects best, we used panels in the colors yellow, blue, and wildflower meadow, each in two materials: acrylic (glossy and smooth) and rigid foam (matte and rough). The camera has LED lights that operates as flash, allowing insects to be recorded at night as well. This protocol focuses solely on the comparison of colors during day.
+
+
 

@@ -1,0 +1,18 @@
+---
+title: Software
+header:
+  image: "/assets/images/title/header.png"
+  caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
+---
+  
+<!--more-->
+
+The software used for automated insect monitoring is based on a processing pipeline that utilizes a combination of the OAK-1 camera and the DepthAI Python API (Fig. 1). This software enables the parallel processing of two video streams in different qualities: a low-quality stream (LQ) and a high-quality stream (HQ). The LQ stream, with a resolution of 320x320 pixels, serves as input for the YOLO detection model. This model is deliberately operated at a lower resolution to maximize the speed of insect detection, even if this affects the accuracy of the detection. In parallel, HQ frames with a resolution of 1920x1080 pixels are created, which are used for later detailed classification.
+
+{% include figure image_path="/assets/images/unit_images/unit06/Software-overview.png" caption="Technical overview of the processing pipeline - HQ recordings are downscaled and used as model input, while the detections are synchronized with HQ recordings and these are cropped to be stored on the SD card along with all relevant metadata." %}
+
+First, the images are captured by the camera at the standard high resolution (1080p or optionally 4K). These images are reduced to a lower resolution for object detection before being passed to the YOLO model for detection. The model detects objects in the images and returns the detected objects with their class labels and probabilities. The detected objects are tracked using the object tracker. The tracker assigns unique IDs to the objects and tracks their movements between the images. The results of the object tracker (movement paths of the insects and IDs of the detected objects) are synchronized in real-time with the timestamps of the images from the HQ stream.
+
+Based on the results of the object tracker, regions (bounding boxes) are defined around the detected objects in the high-resolution images. The detected insects are cropped from these high-resolution images and saved as JPEG files. These detailed crops can be used for later, more accurate classification of the insects. In addition to the cropped images, the metadata for the detected objects is stored in CSV files. The metadata includes information such as time, label, probability, tracking ID, relative coordinates of the bounding box, and file path of the cropped image. Separating detection and classification significantly simplifies data management and reduces the need for extensive training data, as the detection model does not need to distinguish between specific insect species.
+
+Since the experimental setup must be able to operate under limited energy resources, and continuous data streams would overload storage capacities over longer periods, recording intervals were defined. For this purpose, a so-called CronJob was set up, which allows for precise scheduling of recording times. The time-controlled recording optimizes storage and energy consumption because recordings are only made at the defined times. The circuit also includes the LED flash and the UV lock light for nocturnal insects. Additionally, the integrated clock is equipped with its own battery to ensure continuous recording and the smooth execution of intervals even after a power outage.

@@ -10,9 +10,9 @@ header:
 
 ### Results of general movement per color
 
-The average number of recordings per individual per color shows that insects that landed on yellow were significantly more active (mean records 27.31) than those that chose the flower pattern (mean records 16.59; Table 1). However, the patterned plate exhibited both the highest maximum number of recordings (max records 3411) and the lowest standard deviation (SD 101.1). The yellow panels achieved the lowest maximum value (max records 2243) with a standard deviation of 143.8. The blue panels showed the highest standard deviation (170.1) among the color groups.
+The average number of recordings per individual per color shows that insects that landed on yellow were significantly more active (mean records 27.31) than those that chose the flower pattern (mean records 16.59; **Table 1**). However, the patterned plate exhibited both the highest maximum number of recordings (max records 3411) and the lowest standard deviation (SD 101.1). The yellow panels achieved the lowest maximum value (max records 2243) with a standard deviation of 143.8. The blue panels showed the highest standard deviation (170.1) among the color groups.
 
-**Tabelle 1:** The number of records per individual (track_ID) grouped by color chart with minimum number of records (min), maximum number of records (max), average number of records (mean) and the standard deviation of the number of records (sd).
+**Table 1:** The number of records per individual (track_ID) grouped by color chart with minimum number of records (min), maximum number of records (max), average number of records (mean) and the standard deviation of the number of records (sd).
 
 | Color | mean | max | min | sd |
 |----------|----------|----------|----------|----------|
@@ -20,22 +20,22 @@ The average number of recordings per individual per color shows that insects tha
 | Flower | 16.59 | 3411 | 1 | 101.09 |
 | Yellow | 27.31 | 2243 | 1 | 143.76 |
 
-The representation (Fig. 6) illustrates the distribution of the number of records. Most individuals show record counts in the lower range between 1 – 10. From a record count of 100, only a few to isolated individuals are recorded.
+The representation **(Fig. 8)** illustrates the distribution of the number of records. Most individuals show record counts in the lower range between 1 – 10. From a record count of 100, only a few to isolated individuals are recorded.
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph01.png" caption="The distribution of the number of records per individual per color on a logarithmic representation of the x-axis." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph01.png" caption="**Figure 8:**The distribution of the number of records per individual per color on a logarithmic representation of the x-axis." %}
 
-The ANOVA analysis confirms the significant differences between the colors (p-value < 0.01, Tab. 2).
+The ANOVA analysis confirms the significant differences between the colors (p-value < 0.01, **Table 2**).
 
-Table 2: The ANOVA variance analysis shows the significance of the differences between the colors.
+**Table 2:** The ANOVA variance analysis shows the significance of the differences between the colors.
 
 |          | Df | Sum Sq | Mean Sq | F value | Pr(>F) |
 |----------|----------|----------|----------|----------|----------|
 | Color | 2 | 42 | 20.95 | 10.64 | < 0.001 *** |
 | Residuals | 4227 | 8323 | 1.97 |          |          |
 
-A Tukey test can be used to separately illustrate the differences between the colors (Tab. 3). Here it is shown that yellow stands out from all groups (p-value < 0.01).
+A Tukey test can be used to separately illustrate the differences between the colors **(Table 3)**. Here it is shown that yellow stands out from all groups (p-value < 0.01).
 
-Table 3: The Tukey test shows the strength of the differences between the color groups.
+**Table 3:** The Tukey test shows the strength of the differences between the color groups.
 
 |          | diff | lwr | upr | p adj |
 |----------|----------|----------|----------|----------|
@@ -43,9 +43,9 @@ Table 3: The Tukey test shows the strength of the differences between the color 
 | Yellow-Blue | 0.278 | 0.136 | 0.419 | 0.001 |
 | Yellow-Flower | 0.178 | 0.046 | 0.309 | 0.005 |
 
-The results of the Tukey test can be visualized in a boxplot (Fig. 7). This shows both the difference of the groups to yellow and the data distribution from predominantly low numbers of records to isolated high numbers.
+The results of the Tukey test can be visualized in a boxplot **(Fig. 9)**. This shows both the difference of the groups to yellow and the data distribution from predominantly low numbers of records to isolated high numbers.
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph02.png" caption="The boxplot representation shows the focus of the data distribution with many low numbers of records and few high numbers." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph02.png" caption="**Figure 9:** The boxplot representation shows the focus of the data distribution with many low numbers of records and few high numbers." %}
 
 ##### Conclusion: General movement per color
 
@@ -53,18 +53,18 @@ The colors differ significantly in their number of records per individual (p-val
 
 ### Results of specific movement per color
 
-The ANOVA analysis shows that the detected species also have significant differences with regard to the number of records (p-value < 0.01, Tab. 4).
+The ANOVA analysis shows that the detected species also have significant differences with regard to the number of records (p-value < 0.01, **Table 4**).
 
-Table 4: The ANOVA variance analysis shows the significance of the differences between the animal categories.
+**Table 4:** The ANOVA variance analysis shows the significance of the differences between the animal categories.
 
 |          | Df | Sum Sq | Mean Sq | F value | Pr(>F) |
 |----------|----------|----------|----------|----------|----------|
 | top1 | 23 | 301 | 13.07 | 6.82 | < 0.001 *** |
 | Residuals | 4206 | 8064 | 1.92 |          |          |
 
-For a more precise movement profile, the movement activity per color chart can be broken down into the recognized "species" categories of the AI (Tab. 5). For blue, it is shown that ants moved the most on average (mean records 560.9), while butterflies (mean records 15.8) and bumblebees (mean records 1) were predominantly stationary. On the yellow plate, beetles (mean records 36.8) and flies (mean records 35.6) were most active, whereas ants (mean records 4.2) and bumblebees (mean records 2.6) were the calmest. Also on the patterned plate, flies (mean records 61.1) were active, and ants (mean records 3.9) as well as bumblebees (mean records 1.3) were calmer.
+For a more precise movement profile, the movement activity per color chart can be broken down into the recognized "species" categories of the AI **(Table 5)**. For blue, it is shown that ants moved the most on average (mean records 560.9), while butterflies (mean records 15.8) and bumblebees (mean records 1) were predominantly stationary. On the yellow plate, beetles (mean records 36.8) and flies (mean records 35.6) were most active, whereas ants (mean records 4.2) and bumblebees (mean records 2.6) were the calmest. Also on the patterned plate, flies (mean records 61.1) were active, and ants (mean records 3.9) as well as bumblebees (mean records 1.3) were calmer.
 
-Table 5: The number of records per individual (track_ID) grouped by color chart and per AI-identified "species" with minimum number of records (min), maximum number of records (max), average number of records (mean) and the standard deviation of the number of records (sd).
+**Table 5**: The number of records per individual (track_ID) grouped by color chart and per AI-identified "species" with minimum number of records (min), maximum number of records (max), average number of records (mean) and the standard deviation of the number of records (sd).
 
 | Color | Species | mean | max | min | sd |
 |----------|----------|----------|----------|----------|----------|
@@ -135,9 +135,9 @@ Table 5: The number of records per individual (track_ID) grouped by color chart 
 |     | other | 25.405797 | 1630 | 1 | 124.5253496 |
 |     | scorpionfly | 11.600000 | 29 | 1 | 14.1350628 |
 
-This comparison can be illustrated in the histogram (Fig. 8). Many groups seem to show higher movement activity on the yellow and patterned plates than on the blue one. Only ants and some bees were more active on the blue plate.
+This comparison can be illustrated in the histogram **(Fig. 10)**. Many groups seem to show higher movement activity on the yellow and patterned plates than on the blue one. Only ants and some bees were more active on the blue plate.
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph03.png" caption="The distribution of the number of records per insect category, subdivided by color chart." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph03.png" caption="**Figure 10:** The distribution of the number of records per insect category, subdivided by color chart." %}
 
 ##### Conclusion: Specific movement per color
 
@@ -148,9 +148,9 @@ The blue plate differed significantly from the other plates in terms of insect a
 ### Results of general dwell time per color
 In the following results section, it will be examined whether there is a correlation between the color of the plates and the dwell time of the individual insects on them.
 
-First, for the three colors - blue, yellow, and floral pattern - the average, maximum, and minimum dwell time of the individuals recorded by the sensor box were calculated, as well as the standard deviation (Tab. 6). The dwell time was defined as the time an individual was recorded within the camera's field of view, measured in seconds. For this purpose, the time between the first and last image of an insect was aggregated.
+First, for the three colors - blue, yellow, and floral pattern - the average, maximum, and minimum dwell time of the individuals recorded by the sensor box were calculated, as well as the standard deviation **(Table 6)**. The dwell time was defined as the time an individual was recorded within the camera's field of view, measured in seconds. For this purpose, the time between the first and last image of an insect was aggregated.
 
-Table 6: Dwell time of individuals by color in seconds.
+**Table 6:** Dwell time of individuals by color in seconds.
 
 | Color | mean | max | min | sd |
 |----------|----------|----------|----------|----------|
@@ -160,26 +160,26 @@ Table 6: Dwell time of individuals by color in seconds.
 
 The yellow plate showed the highest average dwell time of the insects of all colors (62.91 seconds). Blue is in second place (49.71 seconds), closely followed by the floral pattern (47.83 seconds). However, yellow has the shortest maximum dwell time of all colors (3252.52 seconds), but with a very small difference to the maximum dwell time of the colors blue (3536.58 seconds) and floral pattern (3536.15 seconds), which also differ by only one second. The minimum dwell time is the same for all three colors at 0 seconds, which means that these insects were only identified in one image. The standard deviation of blue (262.83 seconds) indicates a wide distribution of the data, meaning that there were both very short and very long dwell times of the insects. The same can be said for the color yellow (250.74 seconds). The floral pattern shows the lowest standard deviation of all colors (181.83 seconds), which means that the dwell time of the insects was less variable here than with the other colors.
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph04.png" caption="Histogram of the frequency of dwell time of individuals per second by color." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph04.png" caption="**Figure 11:** Histogram of the frequency of dwell time of individuals per second by color." %}
 
-The histogram (Fig. 9) shows a sharp drop in the frequency of individuals with dwell time. This means that most individuals were recorded for a short period of time, while only a few individuals stayed on the plate for more than 250 seconds. This is most true for the floral pattern, followed by blue.
+The histogram **(Fig. 11)** shows a sharp drop in the frequency of individuals with dwell time. This means that most individuals were recorded for a short period of time, while only a few individuals stayed on the plate for more than 250 seconds. This is most true for the floral pattern, followed by blue.
 
-A representation of the histogram without considering the dwell time of one second (Fig. 10) shows that the majority of all recorded individuals only stayed on the plate for one recording. In this context, a significant decrease in frequency can be observed, falling from almost 1,000 individuals to about 25.
+A representation of the histogram without considering the dwell time of one second **(Fig. 12)** shows that the majority of all recorded individuals only stayed on the plate for one recording. In this context, a significant decrease in frequency can be observed, falling from almost 1,000 individuals to about 25.
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph05.png" caption="Histogram of the dwell time of individuals per second, excluding the first second." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph05.png" caption="**Figure 12:** Histogram of the dwell time of individuals per second, excluding the first second." %}
 
 To determine whether there are significant differences in dwell time between the different colors, an analysis of variance (ANOVA) was performed. The ANOVA shows whether the differences in the mean dwell times between the colors are statistically significant. A p-value less than 0.05 indicates that at least one color has a significantly different dwell time.
 
-Table 7: Results of the ANOVA (Analysis of Variance) to investigate the effect of color on the dwell time of insects with Df = degrees of freedom, Sum Sq = sum of squares, Mean Sq = mean squares, F value = F-value, Pr(>F) = p-value.
+**Table 7:** Results of the ANOVA (Analysis of Variance) to investigate the effect of color on the dwell time of insects with Df = degrees of freedom, Sum Sq = sum of squares, Mean Sq = mean squares, F value = F-value, Pr(>F) = p-value.
 
 |          | Df | Sum Sq | Mean Sq | F value | Pr(>F) |
 |----------|----------|----------|----------|----------|----------|
 | Color | 2 | 18 | 8.91 | 2.62 | 0.07 |
 | Residuals | 2490 | 8470 | 3.40 |     |     |
 
-The result of the ANOVA analysis (Tab. 7) suggests possible differences in the mean dwell times of the insects between the different colors, but these are not significant (F(2, 2490) = 2.62, p = 0.073). To further investigate the differences between the colors, a pairwise comparison was performed using Tukey's HSD test (Tab. 8). Here too, the results show no significant differences between the individual colors:
+The result of the ANOVA analysis **(Table 7)** suggests possible differences in the mean dwell times of the insects between the different colors, but these are not significant (F(2, 2490) = 2.62, p = 0.073). To further investigate the differences between the colors, a pairwise comparison was performed using Tukey's HSD test **(Table 8)**. Here too, the results show no significant differences between the individual colors:
 
-Table 8: Tukey's HSD test shows pairwise comparisons of the differences between the colors with diff = difference in means, lwr = lower confidence interval, upr = upper confidence interval, p adj = adjusted p-value.
+**Table 8:** Tukey's HSD test shows pairwise comparisons of the differences between the colors with diff = difference in means, lwr = lower confidence interval, upr = upper confidence interval, p adj = adjusted p-value.
 
 |          | diff | lwr | upr | p adj |
 |----------|----------|----------|----------|----------|
@@ -187,17 +187,17 @@ Table 8: Tukey's HSD test shows pairwise comparisons of the differences between 
 | Yellow-Blue | 0.217 | -0.024 | 0.458 | 0.088 |
 | Yellow-Flower | 0.201 | -0.029 | 0.432 | 0.100 |
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph06.png" caption="Boxplot showing the average duration of insects in seconds, distribution of dwell time, spread of the data, and potential outliers." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph06.png" caption="**Figure 13:** Boxplot showing the average duration of insects in seconds, distribution of dwell time, spread of the data, and potential outliers." %}
 
-The boxplot (Fig. 11) also clearly visualizes that the individual colors hardly vary in average duration.
+The boxplot **(Fig. 13)** also clearly visualizes that the individual colors hardly vary in average duration.
 
 ### Results of specific dwell time per color
 
 The ANOVA analysis shows significant differences in the dwell time (F(23, 4206) = 5.61, p = 2e-16) of the different species on the various colors, which is why this will be discussed again here.
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph07.png" caption="Histogram of the average dwell time of the individual species in seconds per color." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph07.png" caption="**Figure 14:**Histogram of the average dwell time of the individual species in seconds per color." %}
 
-The histogram (Fig. 12) shows that ants stayed by far the longest on the blue plate, and hardly at all on the other colors (floral and yellow).
+The histogram **(Fig. 14)** shows that ants stayed by far the longest on the blue plate, and hardly at all on the other colors (floral and yellow).
 
 Bees also showed a very high dwell time on the blue plate (over 9000 seconds). Bees and ants show by far the longest dwell times of all species here. Some species only lingered on one color, such as the honeybee (apis) on green, the scorpionfly on yellow, and the Sphaeroceridae on the blue plate. The blue plates had the highest dwell time for most species, especially for bees and ants. Yellow plates were approached by some flies and other smaller insects, but the dwell time remains rather low compared to blue. Floral plates have a certain attraction for some beetle species and flies, but overall no extreme preference.
 
@@ -207,7 +207,7 @@ Bees also showed a very high dwell time on the blue plate (over 9000 seconds). B
 
 This part of the analysis examines the relationship between the colors of the plates (blue, yellow, flower meadow) and the number of insects. Accordingly, the question of a significant impact on insects is investigated, and it is filtered out which color attracts the most insects, because the number of insects on a plate can indicate a preference for a color. The results of this analysis could simplify future decisions about materials with regard to a proximate sensing method and thus save costs.
 
-Table 9: Number of insects on the respective colors with minimum number (min), maximum number (max), average number (mean) and standard deviation (sd).
+**Table 9:** Number of insects on the respective colors with minimum number (min), maximum number (max), average number (mean) and standard deviation (sd).
 
 | Color | mean | max | min | sd |
 |----------|----------|----------|----------|----------|
@@ -215,11 +215,11 @@ Table 9: Number of insects on the respective colors with minimum number (min), m
 | Flower | 24.84 | 138 | 1 | 27.90 |
 | Yellow | 13.23 | 49 | 1 | 12.48 |
 
-The table (Tab. 9) shows how many insects were on each plate. The average was calculated using the maximum and minimum numbers. The standard deviation indicates the extent to which the number of counted individuals within a color category differ from each other and points to either homogeneity or heterogeneity. The standard deviation of the blue plate is the highest. This means that the heterogeneity, in terms of insect species, is highest on the blue plate. There were overall more insects on the blue plate, which differ in their genus. The fewest insects landed on the yellow plate, which were rather homogeneous among themselves with regard to the standard deviation. The floral plate is in the middle with its values.
+The table **(Table 9)** shows how many insects were on each plate. The average was calculated using the maximum and minimum numbers. The standard deviation indicates the extent to which the number of counted individuals within a color category differ from each other and points to either homogeneity or heterogeneity. The standard deviation of the blue plate is the highest. This means that the heterogeneity, in terms of insect species, is highest on the blue plate. There were overall more insects on the blue plate, which differ in their genus. The fewest insects landed on the yellow plate, which were rather homogeneous among themselves with regard to the standard deviation. The floral plate is in the middle with its values.
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph08.png" caption="Boxplot representation of the number of individuals by color." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph08.png" caption="**Figure 15:**Boxplot representation of the number of individuals by color." %}
 
-The diagram (Fig. 13) shows a boxplot representation of the number of individuals, divided into three categories based on the variable "Color": Blue, Flower, and Yellow. While the x-axis displays the color, the y-axis represents the "Transformed Number of Individuals" on a logarithmic scale, meaning that the number of individuals is in a range between 1 and 100, with the values being represented logarithmically. The mean is represented by a thick line in the middle of the box, while the box shows the interquartile ranges (IQR, 25th to 75th percentile). The "whiskers" show the range in which most of the remaining data points lie, and any outliers are marked by points above or below the whiskers.
+The diagram **(Fig. 15)** shows a boxplot representation of the number of individuals, divided into three categories based on the variable "Color": Blue, Flower, and Yellow. While the x-axis displays the color, the y-axis represents the "Transformed Number of Individuals" on a logarithmic scale, meaning that the number of individuals is in a range between 1 and 100, with the values being represented logarithmically. The mean is represented by a thick line in the middle of the box, while the box shows the interquartile ranges (IQR, 25th to 75th percentile). The "whiskers" show the range in which most of the remaining data points lie, and any outliers are marked by points above or below the whiskers.
 The number of individuals in the blue category is in the middle range of the logarithmic scale (approximately 10 to 100). There are some outliers on the upper end, indicating that in some cases there is a significantly higher number of individuals in this category. The Flower category appears to have the broadest distribution, with the median being slightly higher than for the other colors. The values extend both below 10 and above 10 to near 100. The distribution of individuals in the yellow category is similar to the blue category, however, there are no outliers, and the median appears to be lower.
 
 ##### Conclusion: Number of insects per color
@@ -236,9 +236,9 @@ Overall, a scattered distribution indicates that the number of individuals withi
 
 ### Results on unique track counts per color
 
-{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph09.png" caption="Distribution of the number of individuals per color." %}
+{% include figure image_path="/assets/images/unit_images/unit06/Analysis_Graph09.png" caption="**Figure 16:**Distribution of the number of individuals per color." %}
 
-The diagram (Fig. 14) shows the "Distribution of the Number of Individuals per Color," which is represented by three colors: Blue, Flower, and Yellow. It is a histogram that describes the frequency of "Unique Track Counts" for each color category. The x-axis (Number of Individuals) represents the number of individuals. The values range from 0 to over 300. The y-axis (Frequency) indicates the frequency, i.e., how often a certain number of individuals occurs in each color category.
+The diagram **(Fig. 16)** shows the "Distribution of the Number of Individuals per Color," which is represented by three colors: Blue, Flower, and Yellow. It is a histogram that describes the frequency of "Unique Track Counts" for each color category. The x-axis (Number of Individuals) represents the number of individuals. The values range from 0 to over 300. The y-axis (Frequency) indicates the frequency, i.e., how often a certain number of individuals occurs in each color category.
 
 The yellow plate dominates the range at low values (below 50 individuals). The frequency is particularly high when the number of individuals is very small, and then drops rapidly. There are no values at high numbers.
 

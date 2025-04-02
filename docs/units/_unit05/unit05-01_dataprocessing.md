@@ -6,7 +6,8 @@ header:
   published: false
 
 ---
-   
+
+*Planning and AI*
 <!--more-->
 
 Before we set out to generate, process and store data, one should think on what to do with it. Please go through this [tutorial](https://ilias.uni-marburg.de/goto.php?target=pg_443261_3276691&client_id=UNIMR) by NFDI4Biodiversity.

@@ -4,7 +4,8 @@ header:
   image: "/assets/images/title/header.png"
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
-  
+*Previous Efforts*
+
 <!--more-->
 
 The aim of this project, which description is part of your [deliverables](/moer-bsc-mpg-proximate-sensing/unit00/unit00-02_deliverables.html), is to find the best suitable design to a trap which automatically captures both day- and night flying insects. We will build upon two established systems. The automated moth trap (AMT), whose first prototype has been adjusted and tested in the couse of the Nature4.0 project, will provide the basis for luring the nocturnal insects. The insect detect trap by Max Sittinger will provide the basis for luring the diurnal insetcs. Before both can be frankensteined together, there are several aspects in terms of the target area which need to be considered, e.g.

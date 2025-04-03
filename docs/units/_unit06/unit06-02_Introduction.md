@@ -6,6 +6,10 @@ header:
 ---
   
 <!--more-->
+## Preface
+This content was prepared by the participating students as part of the "Proximate sensing" course, conducted by Dr. Lea Heidrich. It is dedicated to the examination of sensor-based insect recording methods and aims to capture and analyze the different reactions of insects to offered color panels.
+
+## Protocol
 The vast majority of animal species worldwide are insects (Høye et al. 2021). They fulfill important ecological functions, such as the pollination of plants, but also the maintenance of food webs as a food source for birds and other animals (Hallmann et al. 2017). Recent research results show that the number of insect populations is declining significantly worldwide (Høye et al. 2021, Montgomery et al. 2021, Hallmann et al. 2017). This decline has caused a stir in science and politics and is increasingly gaining attention in the general public as well (Høye et al. 2021, Hallmann et al. 2017). Climate change, habitat loss and degradation, as well as fragmentation, are reasons for the drastic decline of insects on a global scale (Hallmann et al. 2017), the effects of which on future ecosystem services could be severe (Alcocer et al. 2022).
 
 This situation highlights the need for effective monitoring to better track insect losses, assess future scenarios, and also to better evaluate the development of suitable conservation programs, for example, in agriculture and forestry (Alcocer et al. 2022, Zhao et al. 2022, Høye et al. 2021).

@@ -17,6 +17,8 @@ Your unmarked assignment will be to present a paper on recent developments in th
 
 ### Topics of the seminar
 
+
+<!--
 | Paper                                                                                                                                                                       | Presenter | Presentation Date |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------------------|
 | **Zhao, Y. et al.** (2022). *Diversity Monitoring of Coexisting Birds in Urban Forests by Integrating Spectrograms and Object-Based Image Analysis*. Forests 13, 264. [DOI](https://doi.org/10.3390/f13020264)       |           |                   |
@@ -30,13 +32,13 @@ Your unmarked assignment will be to present a paper on recent developments in th
 | **Bjerge, K. et al.** (2022). *Real-time insect tracking and monitoring with computer vision and deep learning*. Remote Sensing in Ecology and Conservation 8, 315–327. [DOI](https://doi.org/10.1002/rse2.245)    |           |                   |
 | **Ärje, J. et al.** (2017). *The effect of automated taxa identification errors on biological indices*. Expert Systems with Applications 72, 108–120. [DOI](https://doi.org/10.1016/j.eswa.2016.12.015)             |           |                   |
 | **Alcocer, I. et al.** (2022). *Acoustic indices as proxies for biodiversity: a meta-analysis*. Biological Reviews 97, 2209–2236. [DOI](https://doi.org/10.1111/brv.12890)                                         |           |                   |
-
+-->
 
 ### Project work
 
-Your marked assignment will be to prepare a project work consisting of a 1-2 page introduction, 3-5 pages of description of the setting, **1-2 pages of analysis and results**, and 2 pages of discussion. This assignment can also be presented in form of a github page. You can submit group projects, but each person must individually address the sections "Analysis" and "Results" for their choosen question. This means that each of you should work on your own section on analysis and results for the specific question you are responsible for.
+Your marked assignment will be to prepare a report consisting of an introduction, a methods part, an analysis, description of results, and discussion. Additionally, there should be a a description of the setting, which should be presented in a way that is easy to understand for non-experts and allows for easy replication. This assignment can also be presented in form of a github page. You can submit group projects with up to 3 people, but each person must individually produce at least 1.5 page of text and a graph and mark it accordingly.
 
-
+Master students must additionally submit 2 pages of substantial suggestions for further development.  
 
 
 

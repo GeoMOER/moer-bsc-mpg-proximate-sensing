@@ -15,7 +15,9 @@ header:
 > After a short break, we will collect and discuss the ideas to construct a proximate sensing device on paper
 
 
+<!--
 ### Results of the course
 {% include figure image_path="/assets/images/unit_images/unit01/IMG_20240418_120905_474.jpg" caption="" %}
 
 {% include figure image_path="/assets/images/unit_images/unit01/IMG_20240418_120910_623.jpg" caption="" %}
+-->

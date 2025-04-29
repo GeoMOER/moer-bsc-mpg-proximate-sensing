@@ -17,22 +17,23 @@ Your unmarked assignment will be to present a paper on recent developments in th
 
 ### Topics of the seminar
 
-1)  Holzbauer et al. (2025, preprint).*Do camera light traps provide similar data as conventional funnel light traps?* [DOI](https://doi.org/10.1101/2025.02.06.636905)
-2)  Drake et al. (2024) *Monitoring insect numbers and biodiversity with a vertical-beam entomological radar* [DOI](https://royalsocietypublishing.org/doi/10.1098/rstb.2023.0117)
-3) Chiavassa et al. (2024) *The Field Automatic Insect Recognition-Device—A Non-Lethal Semi-Automatic Malaise Trap for Insect Biodiversity Monitoring: Proof of Concept* [DOI](https://doi.org/10.1002/ece3.70642)
-4) Alberti et al. (2023) *Bioacoustic IoT Sensors as Next-Generation Tools for Monitoring: Counting Flying Insects through Buzz* [DOI](https://doi.org/10.3390/insects14120924)
-5) Calvus et al (2025) *In-field monitoring of ground-nesting insect aggregations using a scaleable multi-camera system* [DOI](https://doi.org/10.1016/j.ecoinf.2025.103004)
-6) Jiang et al (2022) *Acoustic detection of the wood borer, Semanotus bifasciatus, as an early monitoring technology* [DOI](https://doi.org/10.1002/ps.7089) 
-7) Alcocer,  et al. (2022). *Acoustic indices as proxies for biodiversity: a meta-analysis*. Biological Reviews 97, 2209–2236. [DOI](https://doi.org/10.1111/brv.12890) 
-8) Naqvi et al. (2022) *Camera traps are an effective tool for monitoring insect–plant interactions* [DOI](https://doi.org/10.1002/ece3.8962)
-9) Suto (2022) *A Novel Plug-in Board for Remote Insect Monitoring* [DOI](https://www.mdpi.com/2077-0472/12/11/1897)
-10) Sittinger et al. (2024) *Insect detect: An open-source DIY camera trap for automated insect monitoring* [DOI](https://doi.org/10.1371/journal.pone.0295474)
-11) Feng (2025) *First high-resolution vertical-looking radar for long-term automatic observation of high-flying insects in Asia* [DOI](https://doi.org/10.1002/ps.8773) 
-12) Ratnayake (2023) *Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination* [DOI](https://doi.org/10.1007/s11263-022-01715-4)
-13) Bjerge et al. (2021) *Real-time insect tracking and monitoring with computer vision and deep learning* [DOI](https://doi.org/10.1002/rse2.245) 
-14) Rydhmer et al. (2022) *Automating insect monitoring using unsupervised near-infrared sensors* [DOI](https://doi.org/10.1038/s41598-022-06439-6)
-15) Saha et al. (2024) *Monitoring Mosquito Abundance: Comparing an Optical Sensor with a Trapping Method* [DOI](https://doi.org/10.3390/insects15080584)
-16) Wallace et al. (2023) *Camera-based automated monitoring of flying insects in the wild (Camfi). II. flight behaviour and long-term population monitoring of migratory Bogong moths in Alpine Australia* [DOI](https://doi.org/10.3389/finsc.2023.1230501)
+|1)  Holzbauer et al. (2025, preprint).*Do camera light traps provide similar data as conventional funnel light traps?* [DOI](https://doi.org/10.1101/2025.02.06.636905)|   |    |
+|2)  Drake et al. (2024) *Monitoring insect numbers and biodiversity with a vertical-beam entomological radar* [DOI](https://royalsocietypublishing.org/doi/10.1098/rstb.2023.0117)|   |    |
+|3) Chiavassa et al. (2024) *The Field Automatic Insect Recognition-Device—A Non-Lethal Semi-Automatic Malaise Trap for Insect Biodiversity Monitoring: Proof of Concept* [DOI](https://doi.org/10.1002/ece3.70642)|   |    |
+|4) Alberti et al. (2023) *Bioacoustic IoT Sensors as Next-Generation Tools for Monitoring: Counting Flying Insects through Buzz* [DOI](https://doi.org/10.3390/insects14120924) |   |    |
+|5) Calvus et al (2025) *In-field monitoring of ground-nesting insect aggregations using a scaleable multi-camera system* [DOI](https://doi.org/10.1016/j.ecoinf.2025.103004) |   |    |
+|6) Jiang et al (2022) *Acoustic detection of the wood borer, Semanotus bifasciatus, as an early monitoring technology* [DOI](https://doi.org/10.1002/ps.7089) |   |    |
+|7) Alcocer,  et al. (2022). *Acoustic indices as proxies for biodiversity: a meta-analysis*. Biological Reviews 97, 2209–2236. [DOI](https://doi.org/10.1111/brv.12890) |   |    |
+|8) Naqvi et al. (2022) *Camera traps are an effective tool for monitoring insect–plant interactions* [DOI](https://doi.org/10.1002/ece3.8962) |   |    |
+|9) Suto (2022) *A Novel Plug-in Board for Remote Insect Monitoring* [DOI](https://www.mdpi.com/2077-0472/12/11/1897) |   |    |
+|10) Sittinger et al. (2024) *Insect detect: An open-source DIY camera trap for automated insect monitoring* [DOI](https://doi.org/10.1371/journal.pone.0295474) |   |    |
+|11) Feng (2025) *First high-resolution vertical-looking radar for long-term automatic observation of high-flying insects in Asia* [DOI](https://doi.org/10.1002/ps.8773) |   |    |
+|12) Ratnayake (2023) *Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination* [DOI](https://doi.org/10.1007/s11263-022-01715-4) |   |    |
+|13) Bjerge et al. (2021) *Real-time insect tracking and monitoring with computer vision and deep learning* [DOI](https://doi.org/10.1002/rse2.245) |   |    |
+|14) Rydhmer et al. (2022) *Automating insect monitoring using unsupervised near-infrared sensors* [DOI](https://doi.org/10.1038/s41598-022-06439-6) |   |    |
+|15) Saha et al. (2024) *Monitoring Mosquito Abundance: Comparing an Optical Sensor with a Trapping Method* [DOI](https://doi.org/10.3390/insects15080584) |   |    |
+|16) Wallace et al. (2023) *Camera-based automated monitoring of flying insects in the wild (Camfi). II. flight behaviour and long-term population monitoring of migratory Bogong moths in Alpine Australia* [DOI](https://doi.org/10.3389/finsc.2023.1230501) |   |    |
+
 <!--
 | Paper                                                                                                                                                                       | Presenter | Presentation Date |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------------------|

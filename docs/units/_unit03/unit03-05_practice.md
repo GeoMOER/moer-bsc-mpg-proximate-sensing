@@ -9,15 +9,55 @@ header:
 In ecology, it is often usefull or even necessary to get image data of the species of interest. Timelapse data, i.e., a a collection of sequential observations recorded over a period of time at specific intervals, can be especially useful. It allows us to observe changes or patterns that occur slowly over time, e.g., plant growth.
 
 The Raspberry Pi Foundation has developed a series of ![cameras](https://www.raspberrypi.com/documentation/accessories/camera.html), which can be mounted to the Raspberry Pi computer. We can then program the computer to take pictures at specified times. If the Raspberry Pi is connected to the internet, we can even transfer the images to a remote folder, thus making the data instantly accessable.
-We can't connect the RPi to the internet in the framework of this course, so we'll focus on some local demonstrations.
 
 ## Getting the Raspberry Pi started
 
-As explained in unit03-01, when using the Raspberry Pi for the very first time, the first step is to install an operating system onto a sufficient boot medium, ideally a micro sd-card. This is done using the ![Raspberry Pi Imager](https://www.raspberrypi.com/software/) software. The Raspberry Pi Foundation provides a detailed ![tutorial](https://www.raspberrypi.com/documentation/computers/getting-started.html#install-an-operating-system) for this step. Today, this will be a pre-installed for you to directly start.
-
-Now, simply plug your sd-card, camera, monitor, mouse, and keyboard into the Raspberry Pi and connect your power supply! Since we don't plan on connecting to the internet you can skip WiFi configuration.
+As explained in unit03-01, when using the Raspberry Pi for the very first time, the first step is to install an operating system onto a sufficient boot medium, ideally a micro sd-card. This is done using the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) software. The Raspberry Pi Foundation provides a detailed [tutorial](https://www.raspberrypi.com/documentation/computers/getting-started.html#install-an-operating-system) for this step. 
 
 
+
+## Flashing the SD card of our sensor box
+Needed: SD Card, SD card reader
+
+0) Optional: Install [Visual Studio Code](https://code.visualstudio.com/)  
+1) Install and start the Raspberry Pi imager as admin  
+2) Select "Raspberry Pi Zero" as model  
+3) Select "Raspberry Pi OS lite (32-bit)" under OS  
+4) Add a Hostname (PS-yournumber)  
+5) Add a username and password (see Ilias)  
+6) SSH Option:  
+
+SSH (Secure Shell) is a secure way to remotely access the Raspberry Pi’s command line from another computer (Windows, macOS, Linux).
+
+It lets you:
+Control your Pi remotely over the network
+Run commands
+Transfer files (using tools like scp or sftp)
+
+
+In normal use cases, it would be best to use SSH keys instead of passwords - they are way more secure. 
+SSH keys come in pairs:
+
+Public key: Goes on the Raspberry Pi
+Private key: Stays on your computer
+
+When you connect, the Pi checks if your private key matches the public key it has — if yes, you're granted access without a password.
+In the course, however, we will use passwords for simplicity (see credentials file in Ilias) 
+
+7) flash!
+
+Instead of using the imager, you could also create an empty file with Notepad++ or similar, and safe it on the SD card as ssh (no extension)
+
+
+
+
+
+
+<!--
+
+
+
+<!--
 ## Try out the camera module
 To have a look at all the options available use
 ```shell
@@ -93,3 +133,4 @@ Lastly, we need to set up a cron job. Use the command <code> crontab -e </code> 
 
 ## Test 
 Now with a working Time-lapse Camera, test different settings (distances to the camera, camera type, background etc)
+-->

@@ -13,7 +13,11 @@ Depending on the device you're using, you'll need to install the appropriate sof
 The Raspberry Pi series of single-board computers (including Raspberry Pi Zero) runs on an operating system, such as Raspberry Pi OS (formerly known as Raspbian), Ubuntu, or other compatible Linux distributions. Raspberry Pi OS is the official operating system provided by the Raspberry Pi Foundation and is optimized for Raspberry Pi hardware. To effectively use them, install the RPI imager [^2] and then flash the operating system like onto a MicroSD card. For Arduino, you'll need to download and install the Arduino IDE on your computer.
 {% include figure image_path="/assets/images/unit_images/unit03/wiring.PNG" caption="the Arduino IDE" %}
 
-Note: in the course, your control unit will already be equipped with the needed sofware.
+## Installing an opersating system (OS)
+
+The Raspberry Pi Zero doesn't come with any operating system on it. It requires an OS to boot and function, just like a blank computer without a hard drive wouldn't do anything when turned on. The Raspberry Pi Zero uses a microSD card as its main storage device. Flashing an OS to the card installs the software that tells the Pi how to start up and what to do — just like installing Windows, macOS, or Linux on a computer's hard drive. To install an OS on the pi, the simplest way is to use the [Raspberry Pi imager](https://www.raspberrypi.com/software/). Depending on what you want to do, there are different OS versions depending on version, performance, size on disk, interface, and hardware support.
+If you have already an image saved somewhere, or an operable SD card, you can also just clone it, e.g. using  [Balena Etcher](https://etcher.balena.io/)
+
 
 In terms of programming languages, Python is often used for Raspberry Pi; MicroPython for Raspberry Pi Pico and C/C++  for Arduino. It makes probably sense to use an integrated development environment (IDE) such as Juypiter, VisualStudioCode or PyCharm, which provide advanced code editing features such as syntax highlighting, code completion, and often  have built-in support for version control systems like Git.
 

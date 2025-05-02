@@ -7,7 +7,7 @@ header:
 
 The shell terminal on a Raspberry Pi is a text-based interface that allows you to interact with the operating system through typed commands. Shell is used when the task involves basic file operations, directory navigation, or system configuration changes. These scripts, ending on **.sh** are meant for quick, repetitive tasks that don't require complex logic or data handling. You're working directly with system environments, manipulating environment variables, or handling simple user interactions.
 
-If your task requires more complex logic, such as loops, conditionals, or error handling beyond what is comfortable in a shell scrip, python is used.
+If your task requires more complex logic, such as loops, conditionals, or error handling beyond what is comfortable in a shell scrip, python is used (see next page).
 
 If you have a monitor, keyboard, and mouse connected to your Raspberry Pi, you can access the terminal directly. You can access the Raspberry Pi's shell remotely using SSH (Secure Shell).
 
@@ -22,5 +22,5 @@ Here are some common commands:
 - `cp source destination`: Copies a file or directory from source to destination.
 - `mv source destination`: Moves a file or directory from source to destination.
 - `sudo command`: Executes command with superuser privileges, necessary for many system modifications.
-- `apt-get update` and `apt-get upgrade`: Updates the list of available packages and upgrades installed packages to their latest versions.
+- `apt-get update` and `apt-get upgrade`: Updates the list of available packages and upgrades installed packages to their latest versions. Use `update` to check for new packages and `upgrade` if you want to upgrade all - however, this could download several hundreds of MBs. 
 - `raspi-config`: Opens the Raspberry Pi Software Configuration Tool, which allows you to configure various system settings like network options, interfacing options, and localization settings.

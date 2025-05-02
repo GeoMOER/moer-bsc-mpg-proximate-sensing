@@ -5,6 +5,8 @@ header:
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
 
+> This description of adding modules via the GPIO is can be used for further refining the sensor box. It is not needed for the basic setup we construct in the course.
+
 In the last unit, you became familiar with the GPIOs. The basic principle is that these pins can be programmed, here demonstrated in Python. After connecting your sensor to the pins (see unit02-04), you first must:
 
 1) import the RPi.GPIO module: This module is necessary to control the GPIO pins. Import it using:

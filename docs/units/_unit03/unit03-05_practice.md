@@ -1,5 +1,5 @@
 ---
-title: Programming - practice
+title: Programming - setting up the pi
 header:
   image: "/assets/images/title/header.png"
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
@@ -220,8 +220,10 @@ sudo apt upgrade # attention, uses quite some data, see above
 
 Next, we install the basic tools you might want to use to control the Raspberry Pi camera, including Python support for scripting.
 
+> **_NOTE_**: rpicam-apps is outdated in the new OS. The previous instructions (sudo apt install rpicam-apps) are thus not applicable anymore
+
 ```
-sudo apt install rpicam-apps
+sudo apt install libcamera-apps
 ```
 Installs a suite of command-line tools to capture photos and video.
 
@@ -229,6 +231,12 @@ Installs a suite of command-line tools to capture photos and video.
 sudo apt install python3-picamera2
 ```
 Installs Python bindings for the camera, so we can control it from Python script
+
+```
+wget https://www.uugear.com/repo/WittyPi4/install.sh
+sudo sh install.sh
+```
+This is needed for later power management
 
 # Step 4: Activate mobile hotspot
 
@@ -260,6 +268,7 @@ You can verify your wireless device (usually wlan0) is available:
 sudo nmcli device
 ```
 
+## Option A: Create a hotspot (quick method)
 To create a hotspot, use the following command:
 
 ```
@@ -269,7 +278,7 @@ Replace HOSTNAME with the name you want the hotspot to show, replace YOURPW with
 
 Once the command runs successfully, your Pi will start broadcasting a Wi-Fi network. You can now connect your laptop or phone to that network.
 
-## Connect to hotspot
+### Connect to hotspot
 After joining the hotspot from your laptop, connect to the Raspberry Pi by opening a terminal and typing:
 
 ```
@@ -277,105 +286,116 @@ ssh USERNAME@10.42.0.1
 ```
 Replace Username with the username defined before. You should now be asked to type in a password.
 
-## Make the hotspot persistent
-By default, the hotspot will not restart automatically when the Pi reboots. To make it persistent, run:
+### Option B: Make a permanent  hotspot to connect automatically if no wifi is available
+
+If you created a test hotspot before, better check the current names:
+```
+nmcli connection show
+```
+To rename the hotspot, use this code:
 
 ```
-sudo nmcli connection modify Hotspot connection.autoconnect yes
+sudo nmcli connection modify "Hotspot" connection.id fallback-hotspot
 ```
 
+### Create a permanent hotspot profile.
 
-You also should change the hostname:
-```
-sudo hostnamectl set-hostname NAMEOFSTATION
-```
-replace NAMEOFSTATION with your station name (e.g. PS_01)
-
-now reboot or shut down
+Change the Stationname and your PW (must be without squared brackets). If an error occurs, check (s. above) whether your hotspot is actually named "fallback-hotspot".
 
 ```
-sudo reboot
-sudo shutdown -h now
+sudo nmcli connection add type wifi ifname wlan0 con-name fallback-hotspot autoconnect no ssid [YourStationName]
+sudo nmcli connection modify fallback-hotspot 802-11-wireless.mode ap 802-11-wireless.band bg ipv4.method shared
+sudo nmcli connection modify fallback-hotspot wifi-sec.key-mgmt wpa-psk wifi-sec.psk "[yourPW]"
+```
+
+### Create a script  which starts a hotspot of no WiFi is available
+
+Open a new script called "wifi-fallback"
+```
+sudo nano /usr/local/bin/wifi-fallback.sh
+```
+
+A blank .sh should open. Now, paste this:
+```
+#!/bin/bash
+sleep 30  # wait for network to settle
+# Check if Wi-Fi is connected
+CONNECTED=$(nmcli -t -f DEVICE,STATE dev | grep wlan0 | grep -q ':connected' && echo yes || echo no)
+if [ "$CONNECTED" = "yes" ]; then
+  echo "Wi-Fi is connected. Ensuring hotspot is down."
+  nmcli con down fallback-hotspot 2>/dev/null
+else
+  echo "No Wi-Fi. Starting hotspot."
+  nmcli con up fallback-hotspot
+fi
+```
+
+Write it out with ctrl+O and close it with ctrl+X
+
+Make it executable:
+```
+sudo chmod +x /usr/local/bin/wifi-fallback.sh
+```
+### Create a systemd service:
+
+```
+sudo nano /etc/systemd/system/wifi-fallback.service
+```
+
+Paste:
+```
+[Unit]
+Description=Fallback Wi-Fi Hotspot
+After=network.target NetworkManager.service
+Requires=NetworkManager.service
+
+[Service]
+ExecStart=/usr/local/bin/wifi-fallback.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
+```
+Again, write it out with ctr+o and close with ctr+X
+
+enable it:
+
+```
+sudo systemctl daemon-reload
+sudo systemctl enable wifi-fallback.service
+
 ```
 
 DONE!
 
-
-
 <!--
-## Try out the camera module
-To have a look at all the options available use
-```shell
-libcamera-still --help
-```
-Now, use `libcamera-still` in combination with useful additions to save an image on your desktop.
-
-<details><summary>Solution</summary>
-<p>
-```shell
-libcamera-still -o Desktop/image.jpg
-`</p>
-</details>
-``
-Task 1: Try taking a few images with different specifications!
-
-## Automating the Process
-
-To have the Raspberry Pi take an image autamatically at specified time intervals, we can define a <b>cron job</b> to have the image taken as a background process.
-
-First, we need to write the image command into a shell script stored on the Raspberry Pi. We'll do this using terminal commands:
-
-```shell
-# navigate into folder
-cd ~/Documents
-
-# use nano text editor to create new shell script
-nano take_image.sh
-```
-
-You should now have created and opened a new file, called take_image.sh.
-Now, you need to find a way how to save images automatically under a new name. Create two lines of code, which utilize ***Command substitution*** and allow you to save image with date as numbers. 
-
-<details><summary>HINT 1</summary>
-<p>
-
-Command substitution: This means that the command inside the parentheses is executed, and its output is captured and used as the value of the variable on the left.  
-`SOMENAME=$( command...)` 
-
-</p>
-</details>
+# Troubleshooting
 
 
-<details><summary>HINT 2</summary>
-<p>
-The person who created the command to get the date was not very creative. 
-</p>
-</details>
+moth@PS00:~ $ sudo nmcli device wifi rescan
+moth@PS00:~ $ sudo nmcli device wifi list
+IN-USE  BSSID              SSID           MODE   CHAN  RATE        SIGNAL  BARS  SECURITY 
+        70:54:25:72:75:19  Vodafone-60C0  Infra  1     405 Mbit/s  50      ▂▄__  WPA2
+        04:A2:22:1C:86:D4  WLAN-939064    Infra  1     540 Mbit/s  40      ▂▄__  WPA2
+        80:DA:C2:49:F6:F8  --             Infra  6     540 Mbit/s  34      ▂▄__  WPA2
+        EC:A8:1F:CC:82:F0  Vodafone-82EC  Infra  6     540 Mbit/s  5       ____  WPA2
+*       2C:CF:67:B3:B3:41  PS_00          Infra  6     0 Mbit/s    0       ____  WPA2
 
-<details><summary>HINT 3</summary>
-<p>
-The result of HINT1, is a shell variable that contains the result of a previous assignment. This can be used in the filename
-</p>
-</details>
+nmcli device wifi connect "YourSSID" password "YourPassword"
 
-<details><summary>SOLUTION</summary>
-<p>
-
-`DATE=$(date +"%Y-%m-%d_%H-%M")`  
-`libcamera-still -o Pictures/"$DATE".jpg`
-
-</p>
-</details>
-
-To execute this script simply enter the following into the terminal
-
-```shell
-bash ~/Documents/take_image.sh
-```
-
-Lastly, we need to set up a cron job. Use the command <code> crontab -e </code> to edit your crontab. Read the information provided in your crontab and try having the script executed once every minute / all 10 minutes and when both worked, at the full hour !
+moth@PS00:~ $ nmcli connection show
+NAME           UUID                                  TYPE      DEVICE 
+Hotspot        39737498-44f9-4360-92bc-cbbb5eb8a807  wifi      wlan0
+lo             bb72aa93-deba-474b-98cb-bc5c4e53a52d  loopback  lo
+preconfigured  aa39924a-34a4-4193-8aa3-d4be299973e2  wifi      --
 
 
-## Test 
-Now with a working Time-lapse Camera, test different settings (distances to the camera, camera type, background etc)
+nmcli connection modify "Hotspot" connection.id my-hotspot
+nmcli connection modify "preconfigured" connection.id home-wifi
+
+
+sudo nano /usr/local/bin/wifi-fallback.sh
+
+#!/bin/bash
+
 -->

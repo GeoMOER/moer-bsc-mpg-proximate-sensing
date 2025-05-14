@@ -31,9 +31,9 @@ Adjusted Runtime (hours) = (Power Bank Capacity in mAh * 0.85) / (Device Consump
 
 This means, for a device consuming 300 mA, a 10,000 mAh power bank could potentially power it for approximately 28.33 hours under typical conditions. The runtime will vary based on the actual power consumption of the device and the efficiency of the power bank.
 
-## Power Management with Sleepy Pi
+## Power Management with Sleepy Pi or Witty Pi
 
-If possible, add some power management such as Sleepy Pi. Sleepy Pi is an add-on board for the Raspberry Pi designed to manage power efficiently, especially in scenarios where power conservation is crucial, such as in remote sensor deployments. The Sleepy Pi employs a low-power microcontroller (typically an Arduino-compatible chip) that runs independently of the Raspberry Pi. This microcontroller can remain active at very low power consumption levels to monitor sensors, manage power, and decide when to wake up the Raspberry Pi. This allows the Raspberry Pi to be turned off completely and then powered back – either at regular intervals (e.g., every hour or once a day) to perform tasks like data collection, processing, or transmission or in response to specific events, like a sensor trigger. This means the Raspberry Pi is only active when needed, which drastically reduces power consumption compared to leaving the Raspberry Pi running continuously.
+If possible, add some power management such as Sleepy Pi or Witty Pi. They are add-on boards for the Raspberry Pi designed to manage power efficiently, especially in scenarios where power conservation is crucial, such as in remote sensor deployments. They employ a low-power microcontroller (typically an Arduino-compatible chip) that runs independently of the Raspberry Pi. This microcontroller can remain active at very low power consumption levels to monitor sensors, manage power, and decide when to wake up the Raspberry Pi. This allows the Raspberry Pi to be turned off completely and then powered back – either at regular intervals (e.g., every hour or once a day) to perform tasks like data collection, processing, or transmission or in response to specific events, like a sensor trigger. This means the Raspberry Pi is only active when needed, which drastically reduces power consumption compared to leaving the Raspberry Pi running continuously.
 
 ## Battery Selection
 

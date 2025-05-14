@@ -28,14 +28,7 @@ Your unmarked assignment will be to present a paper on recent developments in th
 |9) Suto (2022) *A Novel Plug-in Board for Remote Insect Monitoring* [DOI](https://www.mdpi.com/2077-0472/12/11/1897) |   |    |
 |10) Sittinger et al. (2024) *Insect detect: An open-source DIY camera trap for automated insect monitoring* [DOI](https://doi.org/10.1371/journal.pone.0295474) |   |    |
 |11) Feng (2025) *First high-resolution vertical-looking radar for long-term automatic observation of high-flying insects in Asia* [DOI](https://doi.org/10.1002/ps.8773) |   |    |
-|12) Ratnayake (2023) *Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination* [DOI](https://doi.org/10.1007/s11263-022-01715-4) |   |    |
-|13) Bjerge et al. (2021) *Real-time insect tracking and monitoring with computer vision and deep learning* [DOI](https://doi.org/10.1002/rse2.245) |   |    |
-|14) Rydhmer et al. (2022) *Automating insect monitoring using unsupervised near-infrared sensors* [DOI](https://doi.org/10.1038/s41598-022-06439-6) |   |    |
-|15) Saha et al. (2024) *Monitoring Mosquito Abundance: Comparing an Optical Sensor with a Trapping Method* [DOI](https://doi.org/10.3390/insects15080584) |   |    |
-|16) Wallace et al. (2023) *Camera-based automated monitoring of flying insects in the wild (Camfi). II. flight behaviour and long-term population monitoring of migratory Bogong moths in Alpine Australia* [DOI](https://doi.org/10.3389/finsc.2023.1230501) |   |    |
-
-<!--
-| Paper                                                                                                                                                                       | Presenter | Presentation Date |
+|12) Ratnayake (2023) *Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination* [DOI](https://doi.org/10.1007/s11263-022-01715-4) |   |    |                                                                                     | Presenter | Presentation Date |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------------------|
 | **Zhao, Y. et al.** (2022). *Diversity Monitoring of Coexisting Birds in Urban Forests by Integrating Spectrograms and Object-Based Image Analysis*. Forests 13, 264. [DOI](https://doi.org/10.3390/f13020264)       |           |                   |
 | **Wittmann, K. et al.** (2024). *Monitoring fast-moving animals—Building a customized camera system and evaluation toolset*. Methods in Ecology and Evolution. [DOI](https://doi.org/10.1111/2041-210X.14322)            |           |                   |

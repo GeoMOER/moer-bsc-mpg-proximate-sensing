@@ -65,7 +65,7 @@ To see how to configure other cron jobs, see [here](https://www.geeksforgeeks.or
 
 Use the Witty Pi to turn on the Pi, run the script at the boot, then shut down.
 
-{% include figure image_path="/assets/images/unit_images/unit03/WittyPi_on_PiZero.png.jpg" caption=" Witty Pi ontop of Raspberry Pi Zero"%}
+{% include figure image_path="/assets/images/unit_images/unit03/WittyPi_on_PiZero.png" caption=" Witty Pi ontop of Raspberry Pi Zero"%}
 
 We can thus make the cronjob start at reboot:
 

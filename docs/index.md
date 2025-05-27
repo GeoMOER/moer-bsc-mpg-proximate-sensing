@@ -51,8 +51,8 @@ The course encompasses 13 sessions from 23.04.2025 to 23.07.2025. **Subject to c
 | 02 | 30.04.2025 | conceptualization & principles          | Which sensor boxes are there and how do they work? How to build your sensor box? |
 ||| **DIY Sensor Box** |
 | 03 | 07.05.2025 | Programming a basic cron job            | How to program your sensor box? |
-| 04 | 14.05.2025 | Building the base  I                    | Building the basic sensor box |
-| 05 | 21.05.2025 | Building the base II                    | Building the basic sensor box |
+| 04 | 14.05.2025 | ~~Building the base  I~~ Programming II | Programming |
+| 05 | 21.05.2025 | Building the base I                     | Building the basic sensor box |
 | 06 | 28.05.2025 | More programming, data                  | What could you do to improve the sensor box? |
 ||| **Analysing** |
 | 07 | 04.06.2025 | A short introduction to AI              | How to use AI for analysing your results |
@@ -60,9 +60,9 @@ The course encompasses 13 sessions from 23.04.2025 to 23.07.2025. **Subject to c
 | -- | 18.06.2025 | Project week                            | No course today |
 ||| **Seminar block** |
 | 09 | 25.06.2025 | A little excurse                         |   |
-| 10 | 02.07.2025 | Seminar block I                          | Present a specific sensor box |
-| 11 | 09.07.2025 | Seminar block II                         | Present a specific sensor box |
-| 12 | 16.07.2025 | Final analysis                           | Time to work on your individual project |
+| 10 | 02.07.2025 | ~~Seminar block I~~  Final analysis      | Time to work on your individual project|
+| 11 | 09.07.2025 | Seminar block I                         | Present a specific sensor box |
+| 12 | 16.07.2025 | ~~Final analysis~~ Seminar block II      | Present a specific sensor box |
 | 13 | 23.07.2025 | Wrap up                                  | Time for questions and feedback, individual projects problems, goodbye |
 
 

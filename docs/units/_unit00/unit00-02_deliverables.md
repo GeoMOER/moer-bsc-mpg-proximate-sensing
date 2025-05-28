@@ -57,6 +57,6 @@ Master students must additionally submit 2 pages of substantial suggestions for 
 The deadline for submission is the 5th of September 2025.
 
 Potential examples:  
-https://www.mdpi.com/1424-8220/21/2/343  
-https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295474  
-https://resjournals.onlinelibrary.wiley.com/doi/10.1111/icad.12662  
+[Bjerge et al.](https://www.mdpi.com/1424-8220/21/2/343)  
+[Sittinger et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295474)  
+[Mielke-Möglich et al.](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/icad.12662)  

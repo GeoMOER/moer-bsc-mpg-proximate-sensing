@@ -57,7 +57,7 @@ The course encompasses 13 sessions from 23.04.2025 to 23.07.2025. **Subject to c
 ||| **Analysing** |
 | 07 | 04.06.2025 | A short introduction to AI              | How to use AI for analysing your results |
 | 08 | 11.06.2025 | Analysing the data gathered             | How effective are sensor boxes in capturing the target? |
-| -- | 18.06.2025 | Project week                            | No course today |
+| -- | 18.06.2025 | Project week/Bioblitz                   | No course today |
 ||| **Seminar block** |
 | 09 | 25.06.2025 | A little excurse                         |   |
 | 10 | 02.07.2025 | ~~Seminar block I~~  Final analysis      | Time to work on your individual project|

@@ -50,7 +50,18 @@ Your unmarked assignment will be to present a paper on recent developments in th
 
 ### Project work
 
-Your marked assignment will be to prepare a report consisting of an introduction, a methods part, an analysis, description of results, and discussion. Additionally, there should be a a description of the setting, which should be presented in a way that is easy to understand for non-experts and allows for easy replication. This assignment can also be presented in form of a github page. You can submit group projects with up to 3 people, but each person must individually produce at least 1.5 page of text and a graph and mark it accordingly.
+Your marked assignment will be to prepare a report consisting of:
+
+- an introduction, including references  
+- a methods part, including  
+    a description of the hardware  
+    a description of the software  
+    a description of the (statistical) analysis  
+- description of results  
+- discussion of the results  
+- references  
+
+ Additionally, there should be a a description of the setting, which should be presented in a way that is easy to understand for non-experts and allows for easy replication. This assignment can also be presented in form of a github page. You can submit group projects with up to 3 people, but each person must individually produce at least 1.5 page of text and a graph and mark it accordingly.
 
 Master students must additionally submit 2 pages of substantial suggestions for further development.  
 

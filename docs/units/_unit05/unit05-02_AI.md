@@ -1,5 +1,6 @@
 ---
 title: Artificial intelligence - the very basics
+public: false
 header:
   image: "/assets/images/title/header.png"
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
@@ -63,7 +64,51 @@ If there are many hidden layers, that is, if the hidden layers are "deep"  it is
 
 A class of deep neural networks commonly used for analyzing visual data are so called Convolutional Neural Networks (CNNs). These have Convolutional Layers, which applies a set of filters (or kernels) to the input image, sliding them across the image to produce a feature map. Each filter detects a specific feature such as edges, textures, or patterns. They also have pooling layers, which reduce the spatial dimensions (height and width) of the feature maps, retaining the most important information while reducing the computational load and controlling overfitting. After several convolutional and pooling layers, the output is flattened and fed into dense layers. These layers are similar to those in traditional neural networks and consist of neurons connected to all activations in the previous layer.
 
+Let's have a look at [here](https://towardsdatascience.com/from-perceptron-to-densenet-an-introduction-to-convolutional-neural-networks-ab37e3b7872e/)
+
+>Let's have a look in R!
+
+
+**Convolutional layers** are the core of a CNN. They apply a series of small filters (also called kernels) across the image. These filters are designed to detect local patterns — such as edges, shapes, or textures — without the model having to "see" the whole image at once. The network learns the best filters during training.
+**Pooling layers** usually follow convolutional layers. Their role is to reduce the spatial size of the feature maps, which makes the network more efficient and robust to small translations or distortions.
+**Fully connected (dense) layers** appear at the end of the network. These layers interpret the features detected in earlier layers and make the final classification decision.
+**Dropout layers and batch normalization** are often added to improve performance and generalization. Dropout randomly deactivates some neurons during training, which helps prevent overfitting. Batch normalization normalizes the output of a layer so that the network trains faster and is more stable.
+
 <!--
+
+install.packages("imager")
+library(imager)
+
+# Load image
+img <- load.image("C:/Users/heidrich_loc/Desktop/Vanessa_atalanta-o.jpg")
+
+# Split into RGB channels
+R <- R(img)
+G <- G(img)
+B <- B(img)
+
+# Define a filter (e.g., horizontal edge detector)
+kernel <- matrix(c(
+  -1, -1, -1,
+  1,  1,  1,
+  0,  0,  0
+), nrow = 3, byrow = TRUE)
+
+kernel <- as.cimg(kernel)
+
+tada <- correlate(img, kernel)
+
+par(mfrow = c(1, 2))
+plot(img, main = "Original")
+plot(tada, main = "Filtered (Correct Kernel Format)")
+
+
+
+filtered_channels <- lapply(channels, function(channel) correlate(channel, kernel))
+plot(filtered_channels[[1]], main = "Filtered (Correct Kernel Format)")
+plot(filtered_channels[[2]], main = "Filtered (Correct Kernel Format)")
+plot(filtered_channels[[3]], main = "Filtered (Correct Kernel Format)")
+
 https://saturncloud.io/blog/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way/
 http://neuralnetworksanddeeplearning.com/chap3.html
 # TUNING with hyperparameters

@@ -31,6 +31,7 @@ Your unmarked assignment will be to present a paper on recent developments in th
 | **Sittinger et al.** (2024) *Insect detect: An open-source DIY camera trap for automated insect monitoring* [DOI](https://doi.org/10.1371/journal.pone.0295474) |   |    |
 | **Feng** (2025) *First high-resolution vertical-looking radar for long-term automatic observation of high-flying insects in Asia* [DOI](https://doi.org/10.1002/ps.8773) |   |    |
 | **Ratnayake** (2023) *Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination* [DOI](https://doi.org/10.1007/s11263-022-01715-4) |   |    | 
+| **Debeuckelaere et al.** (2024) *A wireless, remotely operable an easily customizable robotic flower system.* [DOI](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14342) |   |   |
 
 
 <!--

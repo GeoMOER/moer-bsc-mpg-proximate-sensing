@@ -60,10 +60,10 @@ The course encompasses 13 sessions from 23.04.2025 to 23.07.2025. **Subject to c
 | -- | 18.06.2025 | Project week/[Bioblitz  ](/moer-bsc-mpg-proximate-sensing/unit99/sl04_Bioblitz.html)                 | No course today |
 ||| **Seminar block** |
 | 09 | 25.06.2025 | A little excurse                         |   |
-| 10 | 02.07.2025 | ~~Seminar block I~~  Final analysis      | Time to work on your individual project|
-| 11 | 09.07.2025 | Seminar block I                         | Present a specific sensor box |
-| 12 | 16.07.2025 | ~~Final analysis~~ Seminar block II      | Present a specific sensor box |
-| 13 | 23.07.2025 | Wrap up                                  | Time for questions and feedback, individual projects problems, goodbye |
+| 10 | 02.07.2025 | Final analysis                        | Time to work on your individual project|
+| 11 | 09.07.2025 | Independend working                   | Time to work on your individual project independently |
+| 12 | 16.07.2025 | Seminar block I                       | Present a specific sensor box | 
+| 13 | 23.07.2025 | Seminar block II & Wrap up            | Time for questions and feedback, individual projects problems, goodbye |
 
 
 # Team

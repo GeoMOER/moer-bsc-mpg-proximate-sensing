@@ -66,7 +66,7 @@ Your marked assignment will be to prepare a report consisting of:
 
 Master students must additionally submit 2 pages of substantial suggestions for further development.  
 
-The deadline for submission is the 5th of September 2025.
+The deadline for submission is the 15th of September 2025.
 
 Potential examples:  
 [Bjerge et al.](https://www.mdpi.com/1424-8220/21/2/343)  

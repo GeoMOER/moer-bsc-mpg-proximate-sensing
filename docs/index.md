@@ -47,23 +47,35 @@ The course encompasses 13 sessions from 23.04.2025 to 23.07.2025. **Subject to c
 | Session | Date | Aim | Content |
 |---------|------|-------|---------|
 ||| **Basics** |
-| 01 | 23.04.2025 | First things first                      | How this course works, Why is proximate sensing relevant? How do proximate sensing methods differ from traditional ones?  |
-| 02 | 30.04.2025 | conceptualization & principles          | Which sensor boxes are there and how do they work? How to build your sensor box? |
-||| **DIY Sensor Box** |
-| 03 | 07.05.2025 | Programming a basic cron job            | How to program your sensor box? |
-| 04 | 14.05.2025 | ~~Building the base  I~~ Programming II | Programming |
-| 05 | 21.05.2025 | Building the base I                     | Building the basic sensor box |
-| 06 | 28.05.2025 | More programming, data                  | What could you do to improve the sensor box? |
-||| **Analysing** |
-| 07 | 04.06.2025 | A short introduction to AI              | How to use AI for analysing your results |
-| 08 | 11.06.2025 | Analysing the data gathered             | How effective are sensor boxes in capturing the target? |
-| -- | 18.06.2025 | Project week/[Bioblitz  ](/moer-bsc-mpg-proximate-sensing/unit99/sl04_Bioblitz.html)                 | No course today |
-||| **Seminar block** |
-| 09 | 25.06.2025 | A little excurse                         |   |
-| 10 | 02.07.2025 | Final analysis                        | Time to work on your individual project|
-| 11 | 09.07.2025 | Independend working                   | Time to work on your individual project independently |
-| 12 | 16.07.2025 | Seminar block I                       | Present a specific sensor box | 
-| 13 | 23.07.2025 | Seminar block II & Wrap up            | Time for questions and feedback, individual projects problems, goodbye |
+| 01 | 15.04.2026 | First things first                      | How this course works, Why is proximate sensing relevant? How do proximate sensing methods differ from traditional ones?  |
+| 02 | 22.04.2026 | conceptualization & principles          | seminar? |
+||| **Basics** |
+| 03 | 29.04.2026 | hardware basics |  |
+| 04 | 06.05.2026 | software basics |  |
+| 05 | 13.05.2026 | AI basics I     |  |
+| 06 | 20.05.2026 | AI basics II / Analysing   |  |
+||| **DIY** |
+| 07 | 27.05.2026 | Project outlook + Gitlab ||
+| 08 | 03.06.2026 | Project week/BionicBlitz ||
+| 09 | 10.06.2026 | Project group work | |
+| 10 | 17.06.2026 | Project group work | |
+| 11 | 24.06.2026 | Project group work | |
+| 12 | 01.07.2026 | Seminar + Feedback GL | |
+| 13 | 08.07.2026 | Seminar + Feedback GL | |
+| 14 | 15.07.2026 | Wrap up            | Time for questions and feedback, individual projects problems, goodbye |
+
+
+<!--
+# Project group work - how does it work?
+
+## first day
+- planning phase
+ sketch out an idea(or plan), find ressources
+- getting feedback on the idea by peers and teachers
+
+## second day
+
+-->
 
 
 # Team

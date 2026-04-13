@@ -11,12 +11,12 @@ A sensor, derived from the Latin word "sentire" meaning "to feel" or "to perceiv
 Active sensors produce electrical signals based on the measurement principle, such as electrodynamic or piezoelectric sensors. Passive sensors, on the other hand, utilize passive components whose parameters change with the measured quantity.
 {% include figure image_path="/assets/images/unit_images/unit02/Sensorbox_highlighted_sensor.png" caption="the sensor of the sensor box" %}
 
-
+<!--
 **QUESTIONS TO BE DISCUSSED**
 > what can you sense?  
 > what physical and chemical properties/ signals can be assessed in terms of biodiversity?  
 > imagine you walk through a forest to identify birds, what signals are needed for you to identify and count the birds?  
-
+-->
 
 <!-- Animal ~ Signal ~ Sensor ~ Information-->
 

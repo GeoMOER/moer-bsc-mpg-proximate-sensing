@@ -33,14 +33,18 @@ Trapping involves physically capturing organisms using specialized devices such 
 
 For more information on traditional trapping of insects, see [here](https://doi.org/10.3389/fevo.2020.579193)[^2].
 
+
+<!--
 **QUESTIONS TO BE DISCUSSED**
 > How could one automate these traditional systems?
 > What are the costs of traditional monitoring?
 > Which information might not be gathered by these automated compared to traditional methods?
+-->
 
 [^1]: [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185809](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185809)
 [^2]: [https://doi.org/10.3389/fevo.2020.579193](https://doi.org/10.3389/fevo.2020.579193)
 <!--25: add quiz-->
+
 
 <details><summary>SPOILER</summary>
 <p>

@@ -46,11 +46,11 @@ Heterodyning combines the ultrasonic frequency of the bat call with a constant f
 
 Want to build your own? Check the [bat pi project](http://bat-pi.eu/)
 
-
+<!--
 ## QUESTIONS TO DISCUSS ##
 > What information can be gained by ARUs?   
 > What advantageous and disadvantageous are there in comparison to human listeners?
-
+-->
 
 <details><summary>SPOILER</summary>
 <p>

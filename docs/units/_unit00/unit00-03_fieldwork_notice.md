@@ -6,7 +6,7 @@ header:
   caption: 'Photo by [Lukas Goumbik, from Pixabay](https://pixabay.com/de/users/goumbik-3752482/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2055522){:target="_blank"}'
 ---
 
-In June, if the weather is fine, part of our course and course projects involves visiting and setting up sensor boxes in the Marburg area. 
+In June, if the weather is fine, part of our course and course projects involves visiting sensor boxes in the Marburg area. 
 Be aware of the risk of sunburn and tick-borne diseases and protect yourself accordingly:
 
 **1.** Sunscreen is your friend! Don't forget to lather up and protect your skin.

@@ -32,5 +32,5 @@ Please also not that the HTML learning environment has a FAQ page for recurring 
 
 Ilias is the course space offered by the University of Marburg. 
 We will use Ilias mainly for the administration of the course and for providing small static documents.
-The link to the Ilias space for this course can be found [here](https://ilias.uni-marburg.de/goto.php?target=crs_3897879&client_id=UNIMR){:target="_blank"}.
+
 Note that you have to log in with your student account. There is also a forum in Ilias, which you can use for getting in touch with your fellow students.

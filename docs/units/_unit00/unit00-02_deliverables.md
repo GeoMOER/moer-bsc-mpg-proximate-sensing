@@ -13,10 +13,13 @@ header:
 We distinguish between unmarked and marked deliverables ("Studien- und Prüfungsleistung"). 
 Both are required for passing the course but only the latter are marked.
 
-Your unmarked assignment will be to present a paper on recent developments in the world of proximity sensing in the form of a 12 minute presentation followed by a 3 minute discussion. Everybody is requested to prepare 3 questions for the topic of each of your peers.
+Your **marked assignment** is to work on a project related to either **hardware**-, or **software**-development, improving an **AI**-model, or an **ecological/methodological** research question.
 
-### Topics of the seminar
+Your **unmarked** assignment is to present your project (before its finalization) to your peers.
 
+You will work on your assignments in small groups of ~ 3 students. However, each student must make an unique contribution, and mark it accordingly.
+
+<!--
 | Paper | Presenter | Presentation Date |
 |--------------------------------------------------|-----------|-------------------|
 | **Holzbauer et al.** (2025, preprint).*Do camera light traps provide similar data as conventional funnel light traps?* [DOI](https://doi.org/10.1101/2025.02.06.636905)|   |    |
@@ -32,7 +35,7 @@ Your unmarked assignment will be to present a paper on recent developments in th
 | **Feng** (2025) *First high-resolution vertical-looking radar for long-term automatic observation of high-flying insects in Asia* [DOI](https://doi.org/10.1002/ps.8773) |   |    |
 | **Ratnayake** (2023) *Spatial Monitoring and Insect Behavioural Analysis Using Computer Vision for Precision Pollination* [DOI](https://doi.org/10.1007/s11263-022-01715-4) |   |    | 
 | **Debeuckelaere et al.** (2024) *A wireless, remotely operable an easily customizable robotic flower system.* [DOI](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14342) |   |   |
-
+-->
 
 <!--
 | Paper | Presenter | Presentation Date |
@@ -49,6 +52,7 @@ Your unmarked assignment will be to present a paper on recent developments in th
 | **Ärje, J. et al.** (2017). *The effect of automated taxa identification errors on biological indices*. Expert Systems with Applications 72, 108–120. [DOI](https://doi.org/10.1016/j.eswa.2016.12.015)          |           |      |
 -->
 
+<!--
 ### Project work
 
 Your marked assignment will be to prepare a report consisting of:
@@ -72,3 +76,4 @@ Potential examples:
 [Bjerge et al.](https://www.mdpi.com/1424-8220/21/2/343)  
 [Sittinger et al.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295474)  
 [Mielke-Möglich et al.](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/icad.12662)  
+-->

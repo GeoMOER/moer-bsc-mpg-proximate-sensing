@@ -100,5 +100,7 @@ x is not greater than 5
 ## Practice I:
 After connecting your sensor in unit 2 in the [simulator](https://wokwi.com/projects/new/micropython-pi-pico), write a python script so that it prints a message whenever the sensor gets activated.
 
+<!--
 ## Practice II:
 Generate a script which allows you to take time-lapse images via one of the base raspberry-pi cameras. Alternatively, try to time-schedule the 12V UV lamp from the practice chapter of unit02.
+-->

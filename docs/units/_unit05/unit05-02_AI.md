@@ -66,8 +66,6 @@ A class of deep neural networks commonly used for analyzing visual data are so c
 
 Let's have a look at [here](https://towardsdatascience.com/from-perceptron-to-densenet-an-introduction-to-convolutional-neural-networks-ab37e3b7872e/)
 
->Let's have a look in R!
-
 
 **Convolutional layers** are the core of a CNN. They apply a series of small filters (also called kernels) across the image. These filters are designed to detect local patterns — such as edges, shapes, or textures — without the model having to "see" the whole image at once. The network learns the best filters during training.
 **Pooling layers** usually follow convolutional layers. Their role is to reduce the spatial size of the feature maps, which makes the network more efficient and robust to small translations or distortions.

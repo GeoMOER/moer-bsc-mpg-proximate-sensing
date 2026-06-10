@@ -363,3 +363,33 @@ Just refresh the browser.
 | Port 4000 already in use | `bundle exec jekyll serve --port 4001` |
 | Page not updating | Save the file and hard-refresh the browser (`Ctrl+Shift+R`) |
 | `_features` pages not showing | Check that front matter has `---` on both sides |
+| vdollar_percent_expand: unknown key during clone |  Windows: HOME fix see below |
+
+### Windows: HOME variable fix
+
+If you see this error on Windows:
+```
+vdollar_percent_expand: unknown key %/
+fatal: Could not read from remote repository.
+```
+
+Git has incorrectly expanded your HOME path (e.g. `C:\Users\%yourname%\.ssh` instead of `C:\Users\yourname\.ssh`).
+
+**Fix — run these in PowerShell as Administrator:**
+
+```powershell
+[System.Environment]::SetEnvironmentVariable("HOME", "C:\Users\YOURNAME", "User")
+```
+
+```bash
+git config --global core.sshCommand "C:/Windows/System32/OpenSSH/ssh.exe"
+```
+
+Replace `YOURNAME` with your actual Windows username. Then verify:
+
+```powershell
+echo $env:HOME
+# Should print: C:\Users\YOURNAME
+```
+
+After that, `git clone` should work normally.

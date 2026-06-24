@@ -61,9 +61,9 @@ The course encompasses 13 sessions from 15.04.2026 to 15.07.2026. **Subject to c
 | 09 | 10.06.2026 | Project group work | work on your project |
 | 10 | 17.06.2026 | Project group work | work on your project |
 | 11 | 24.06.2026 | Project group work | work on your project |
-| 12 | 01.07.2026 | Seminar + Feedback GL | present your project |
+| 12 | 01.07.2026 | Project group work | work on your project |
 | 13 | 08.07.2026 | Seminar + Feedback GL | present your project |
-| 14 | 15.07.2026 | Wrap up            | Time for questions and feedback, individual projects problems, goodbye |
+| 14 | 15.07.2026 | Seminar + Wrap up            | present your project, time for feedback, goodbye |
 
 
 <!--

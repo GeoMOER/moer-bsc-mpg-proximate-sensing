@@ -8,6 +8,7 @@ header:
 This page gives an overview of the three projects in this year's course
 *Proximity Sensing of Biological Diversity*, along with the tasks available for each.
  
+
 ---
  
 ## How this course works
@@ -24,6 +25,13 @@ You will need to experiment, search, fail, try again — and that is entirely in
 - Keep a **working log** as you go: what you searched for, what you read, what you tried, what worked and what didn't. Include rough time estimates (e.g. *literature research ~4h, sensor wiring ~2h*).
 - Each person is **primarily responsible for one task**. Individual contributions must be clearly identifiable.
 - The final deliverable is a **GitLab page** for each project and its associated features (tasks) that is detailed enough for others to reproduce your work — a step-by-step guide (for technical tasks) or a structured report (for analysis tasks). Include technical diagrams and make sure all connections and steps are unambiguous.
+- the working log and the github page should together be around 4000 to 8000 words (incl. code if applicable)
+
+
+# Deadline
+
+19th August 2026
+
 
 ### Use of generative AI
  
